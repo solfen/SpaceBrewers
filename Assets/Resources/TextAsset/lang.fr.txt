@@ -1,0 +1,7 @@
+[
+	["language", "Francais"],
+	["title", "Mon Prototype"],
+	["new", "Nouveau"],
+	["settings", "Paramètres"],
+	["exit", "Quitter"]
+]

@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ALCOOL_QUOTE_1" xml:space="preserve">
+		<value>I think the warning labels on alcoholic beverages are too bland. They should be more vivid. Here is one I would suggest: Alcohol will turn you into the same asshole your father was.
+&lt;color="#878787FF"&gt;- George Carlin&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_2" xml:space="preserve">
+		<value>I would not put a thief in my mouth to steal my brains.
+&lt;color="#878787FF"&gt;-  William Shakespeare, Othello&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_3" xml:space="preserve">
+		<value>I like to see the glass as half full, hopefully of jack daniels.
+&lt;color="#878787FF"&gt;- Darynda Jones, First Grave on the Right&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_4" xml:space="preserve">
+		<value>Only Irish coffee provides in a single glass all four essential food groups: alcohol, caffeine, sugar and fat.
+&lt;color="#878787FF"&gt;- Alex Levine&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_5" xml:space="preserve">
+		<value>Drinking is fun! It makes me feel horrible and sexy!
+&lt;color="#878787FF"&gt;- Warren Ellis&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_6" xml:space="preserve">
+		<value>I'm not drunk, just a little stoned.
+&lt;color="#878787FF"&gt;- Gerard Way&lt;/color&gt;</value>
+	</data>
+	<data name="ALCOOL_QUOTE_7" xml:space="preserve">
+		<value>Alcohol may be man's worst enemy, but the bible says love your enemy.
+&lt;color="#878787FF"&gt;- Frank Sinatra&lt;/color&gt;</value>
+	</data>
+	<data name="FAMILY_ENEMY_1_NAME" xml:space="preserve">
+		<value>Junker</value>
+	</data>
+	<data name="FAMILY_ENEMY_2_NAME" xml:space="preserve">
+		<value>Vulcans</value>
+	</data>
+	<data name="FAMILY_ENEMY_3_NAME" xml:space="preserve">
+		<value>Kuns</value>
+	</data>
+	<data name="FAMILY_ENEMY_4_NAME" xml:space="preserve">
+		<value>Pierrafeu</value>
+	</data>
+	<data name="FAMILY_ENEMY_5_NAME" xml:space="preserve">
+		<value>Martin</value>
+	</data>
+	<data name="FAMILY_ENEMY_6_NAME" xml:space="preserve">
+		<value>Hunis</value>
+	</data>
+	<data name="FAMILY_ENEMY_7_NAME" xml:space="preserve">
+		<value>Bebert</value>
+	</data>
+	<data name="FAMILY_ENEMY_8_NAME" xml:space="preserve">
+		<value>ValJean</value>
+	</data>
+	<data name="FAMILY_PLAY_1_HISTORY" xml:space="preserve">
+		<value>S'il y a une famille de brasseurs en qui l'on peut se reconnaitre, c'est bien les Pelicans. Ils sont vus comme une famille moyenne aussi bien en taille qu'en qualité. Mais est-ce vraiment le cas ? Bien sûr que non ! Montrez au monde que les Pelicans peuvent devenir la famille la plus puissante de la galaxie et que tout le monde devrait gouter leur bière délicieusement fruitée.</value>
+	</data>
+	<data name="FAMILY_PLAY_1_NAME" xml:space="preserve">
+		<value>Pelicans</value>
+	</data>
+	<data name="FAMILY_PLAY_2_HISTORY" xml:space="preserve">
+		<value>Bien que cela en dérange beaucoup, les Kros sont partout de nos jours. Ils sont régulièrement critiqués pour la faible qualité de leur blonde toute simple. Mais sans eux, que boieraient ces ados sans le sou ? Montrez au monde que même la plus simple des bières peut gagner le coeur (et le foie) de millions de personnes !</value>
+	</data>
+	<data name="FAMILY_PLAY_2_NAME" xml:space="preserve">
+		<value>Kros</value>
+	</data>
+	<data name="FAMILY_PLAY_3_HISTORY" xml:space="preserve">
+		<value>Les Spucken étaient une des familles les plus puissantes de l'univers, presque des légendes aux yeux des pochtrons. Mais ça c'était avant... Après des années de problèmes judiciaires, il sera difficile pour eux de reprendre leur juste place dans l'élite. Vous êtes ici pour vous assurer qu'ils aient ce qui leur revient de droit !</value>
+	</data>
+	<data name="FAMILY_PLAY_3_NAME" xml:space="preserve">
+		<value>Spucken</value>
+	</data>
+	<data name="FAMILY_PLAY_NAME_LOCKED" xml:space="preserve">
+		<value>Vérouillée</value>
+	</data>
+	<data name="GAMEOVER_MSG_NOMONEY" xml:space="preserve">
+		<value>Banqueroute, la meilleure des routes.</value>
+	</data>
+	<data name="GAMEOVER_MSG_SAILORS" xml:space="preserve">
+		<value>Pas de brasseurs, pas de palais.</value>
+	</data>
+	<data name="INFO_HEADER_1" xml:space="preserve">
+		<value>Info :</value>
+	</data>
+	<data name="INFO_HEADER_2" xml:space="preserve">
+		<value>Super :</value>
+	</data>
+	<data name="INFO_HEADER_3" xml:space="preserve">
+		<value>ATTENTION :</value>
+	</data>
+	<data name="INFO_TEXT_1" xml:space="preserve">
+		<value>Nouveau Message !</value>
+	</data>
+	<data name="INFO_TEXT_10" xml:space="preserve">
+		<value>Objet déjà amélioré</value>
+	</data>
+	<data name="INFO_TEXT_11" xml:space="preserve">
+		<value>Objet en parfait état !</value>
+	</data>
+	<data name="INFO_TEXT_12" xml:space="preserve">
+		<value>Objet en cours d'utilisation...</value>
+	</data>
+	<data name="INFO_TEXT_13" xml:space="preserve">
+		<value>Un brasseur est parti en claquant la porte</value>
+	</data>
+	<data name="INFO_TEXT_14" xml:space="preserve">
+		<value>PERCEPTION DE LA TAXE</value>
+	</data>
+	<data name="INFO_TEXT_15" xml:space="preserve">
+		<value>Argent bas !</value>
+	</data>
+	<data name="INFO_TEXT_2" xml:space="preserve">
+		<value>Mission accomplie !</value>
+	</data>
+	<data name="INFO_TEXT_3" xml:space="preserve">
+		<value>Des bandits nous ont attaqués, échec de la mission...</value>
+	</data>
+	<data name="INFO_TEXT_4" xml:space="preserve">
+		<value>Les négociations ont foiré, échec de la mission...</value>
+	</data>
+	<data name="INFO_TEXT_5" xml:space="preserve">
+		<value>On s'est fait repérer, échec de la mission...</value>
+	</data>
+	<data name="INFO_TEXT_6" xml:space="preserve">
+		<value>Pas assez d'argent !</value>
+	</data>
+	<data name="INFO_TEXT_7" xml:space="preserve">
+		<value>Recherche terminée !</value>
+	</data>
+	<data name="INFO_TEXT_8" xml:space="preserve">
+		<value>Un brassseur est mort !</value>
+	</data>
+	<data name="INFO_TEXT_9" xml:space="preserve">
+		<value>Stock de bière bas !</value>
+	</data>
+	<data name="MES_01_CHOICE_1" xml:space="preserve">
+		<value>[Vendre 100 Bières pour 100 BeerCoins.]</value>
+	</data>
+	<data name="MES_01_CHOICE_2" xml:space="preserve">
+		<value>[Vendre 200 Bières pour 250 BeerCoins.]</value>
+	</data>
+	<data name="MES_01_CHOICE_3" xml:space="preserve">
+		<value>[Vendre 500 Bières pour 850 BeerCoins.]</value>
+	</data>
+	<data name="MES_01_DESCRIPTION" xml:space="preserve">
+		<value>Salut, je suis un marchant itinérant. Je suis un peu juste en bière, et je me demandais si tu serais assez sympa pour m'en vendre un peu. Evidemment je te paierai généreusement.
+
+OFFRES : 
+100 Bières pour 150 BeerCoins
+200 Bières pour 350 BeerCoins
+500 Bières pour 850 BeerCoins</value>
+	</data>
+	<data name="MES_01_TITLE" xml:space="preserve">
+		<value>Proposition commerciale : Bière</value>
+	</data>
+	<data name="MES_02_CHOICE_1" xml:space="preserve">
+		<value>[Mettre à jour le compte.]</value>
+	</data>
+	<data name="MES_02_DESCRIPTION" xml:space="preserve">
+		<value>Salutations, cher membre de GalacticBank. 
+
+Je suis au regret de vous annoncer qu'un hacker non identifié a volé 300 BeerCoins sur votre compte. Malheureusement, suite au dernier krach boursier, la banque n'indemnise plus les victimes de piratage donc vous ne serez pas remboursé. 
+
+Merci d'avoir choisi GalacticBank !</value>
+	</data>
+	<data name="MES_02_TITLE" xml:space="preserve">
+		<value>Votre compte a été piraté</value>
+	</data>
+	<data name="MES_03_CHOICE_1" xml:space="preserve">
+		<value>"J'aime ton style, voilà ton blé." [-50 BC]</value>
+	</data>
+	<data name="MES_03_CHOICE_2" xml:space="preserve">
+		<value>"Pas intéressé, bonne chance..."</value>
+	</data>
+	<data name="MES_03_DESCRIPTION" xml:space="preserve">
+		<value>Voulez-vous être acclamé ? Je peux le faire ! 
+Pour seulement 50 BeerCoins, j'écrirai un poème à la gloire de votre brasserie. Vous ne trouverez pas mieux dans toute la galaxie, allez, embauchez-moi !
+ 
+Un échantillon de mon travail : 
+Fort est le vin, dans mon gosier, 
+et je suis plein, comme un panier...</value>
+	</data>
+	<data name="MES_03_TITLE" xml:space="preserve">
+		<value>Poèmes interstellaires</value>
+	</data>
+	<data name="MES_04_CHOICE_1" xml:space="preserve">
+		<value>"Eh, pas mal ! Je te recommanderai."</value>
+	</data>
+	<data name="MES_04_DESCRIPTION" xml:space="preserve">
+		<value>Merci mon ami ! Voici ton poème :
+
+Il faut être toujours ivre.
+Tout est là:
+c'est l'unique question.
+Pour ne pas sentir
+l'horrible fardeau du Temps
+qui brise vos épaules
+et vous penche vers la terre,
+il faut vous enivrer sans trêve.
+Mais de quoi?
+De vin, de poésie, ou de vertu, à votre guise.
+Mais enivrez-vous.</value>
+	</data>
+	<data name="MES_04_TITLE" xml:space="preserve">
+		<value>Poèmes interstellaires (2)</value>
+	</data>
+	<data name="MES_05_CHOICE_1" xml:space="preserve">
+		<value>[Ignorer le message.]</value>
+	</data>
+	<data name="MES_05_CHOICE_2" xml:space="preserve">
+		<value>"Pourquoi pas ?"</value>
+	</data>
+	<data name="MES_05_DESCRIPTION" xml:space="preserve">
+		<value>Bonjour, je m'appelle Julien et je vais vous révéler un secret qui changera votre vie ! Grâce aux options binaires, la bourse galactique n'est plus réservée à l'élite ! Maintenant VOUS pouvez devenir riche sans RIEN faire et SANS AUCUN RISQUE !!! 
+
+Suivez ce lien pour recevoir votre cours gratuit.</value>
+	</data>
+	<data name="MES_05_TITLE" xml:space="preserve">
+		<value>GAGNEZ 10 000 BeerCoins en seulement 0,03 secondes !!!!</value>
+	</data>
+	<data name="MES_06_CHOICE_1" xml:space="preserve">
+		<value>"Super, bienvenue à bord !"</value>
+	</data>
+	<data name="MES_06_CHOICE_2" xml:space="preserve">
+		<value>"J'ai assez de larbins bourrés, merci."</value>
+	</data>
+	<data name="MES_06_DESCRIPTION" xml:space="preserve">
+		<value>Salut. Je serai rapide: je suis un brasseur, je travaillais avec vos rivaux mais ils m'exploitaient donc je suis parti. Ça vous dirait de m'embaucher ? Je vous amènerai sur la route du succès sans aucun doute.</value>
+	</data>
+	<data name="MES_06_TITLE" xml:space="preserve">
+		<value>Intéressé pour engager un nouveau brasseur?</value>
+	</data>
+	<data name="MES_07_CHOICE_1" xml:space="preserve">
+		<value>[Acheter le Bouclier Protecteur temporaire. [-1000 BC]]</value>
+	</data>
+	<data name="MES_07_CHOICE_2" xml:space="preserve">
+		<value> [Ignorer le message. ]</value>
+	</data>
+	<data name="MES_07_DESCRIPTION" xml:space="preserve">
+		<value>DANGER !
+
+Un champ d'astéroïdes frôlera bientôt votre base : si vous ne voulez pas risquer divers dommages sur vos biens, vous devriez profiter de notre offre de Bouclier Protecteur.
+C'est la moins chère du marché et elle durera le temps des perturbations.
+
+Merci !</value>
+	</data>
+	<data name="MES_07_TITLE" xml:space="preserve">
+		<value>DANGER : Champ d'astéroides</value>
+	</data>
+	<data name="MES_08_DESCRIPTION" xml:space="preserve">
+		<value>Malheureusement, un champ d'astéroide à détruit une partie de votre base.
+
+Comme stipulé dans votre contrat, une partie des dommages sur les structures de la base sont couverts par votre Famille. Vous devez cependant payer les 500 BC restants pour couvrir les dépenses de réparation.
+
+Merci !</value>
+	</data>
+	<data name="MES_08_TITLE" xml:space="preserve">
+		<value>DANGER : Champ d'astéroides (2)</value>
+	</data>
+	<data name="MES_09_CHOICE_1" xml:space="preserve">
+		<value>"Laisse-les parler."</value>
+	</data>
+	<data name="MES_09_CHOICE_2" xml:space="preserve">
+		<value>"Donne leur un pot-de-vin." [-100 BC]</value>
+	</data>
+	<data name="MES_09_CHOICE_3" xml:space="preserve">
+		<value>"Donne leur un pot-de-vin. Et un gros." [-250 BC]</value>
+	</data>
+	<data name="MES_09_CHOICE_4" xml:space="preserve">
+		<value>"Tue-les."</value>
+	</data>
+	<data name="MES_09_DESCRIPTION" xml:space="preserve">
+		<value>Hey camarade, comment ça va ? 
+
+Juste un petit message d'un membre de la Famille. J'ai entendu de mauvaises rumeurs au sujet de ta brasserie dans certains bars récemment. Sûrement le boulot d'un de tes rivaux, comme d'habitude, hein ? Je veux bien t'aider si tu veux y mettre fin, tu en dis quoi ?</value>
+	</data>
+	<data name="MES_09_TITLE" xml:space="preserve">
+		<value>Rumeurs dénigrantes</value>
+	</data>
+	<data name="MES_10_CHOICE_1" xml:space="preserve">
+		<value>[Lui envoyer un gros caisson, ça devrait aller. [-400 BC]]</value>
+	</data>
+	<data name="MES_10_CHOICE_2" xml:space="preserve">
+		<value>[Ne lui envoyer que quelques bière, les meilleures. [-100 BC]] </value>
+	</data>
+	<data name="MES_10_CHOICE_3" xml:space="preserve">
+		<value>[Pas besoin de faire attention à une petite starlette.]</value>
+	</data>
+	<data name="MES_10_DESCRIPTION" xml:space="preserve">
+		<value>Hello chéri, c'est Emelyn, la meilleure chanteuse de la galaxie !
+
+Je t'offre la meilleure occasion dont tu pourrais rêver : envoie moi un peu de ta bière et SI je l'aime, je pourrais te faire l'honneur de lui faire de la publicité. N'es-tu pas subjugé par ma générosité ?
+
+Pas besoin de répondre, envoie-moi juste la bière si le marché ta va. XOXO</value>
+	</data>
+	<data name="MES_10_TITLE" xml:space="preserve">
+		<value>Une occasion en or, mon coeur</value>
+	</data>
+	<data name="MES_11_CHOICE_1" xml:space="preserve">
+		<value>"C'est ce qu'on va voir!"</value>
+	</data>
+	<data name="MES_11_CHOICE_2" xml:space="preserve">
+		<value>"J'ai pas le temps pour ça..."</value>
+	</data>
+	<data name="MES_11_DESCRIPTION" xml:space="preserve">
+		<value>"Moi, c'est Eston, je vais bientôt devenir le meilleur brasseur de la galaxie ! 
+Tu ne t'es pas trop mal débrouillé avec ta brasserie jusque là, mais tu as encore beaucoup à faire pour me rattraper ! 
+Et si on faisait un petit concours, histoire de voir qui est le meilleur de nous deux ?
+Si tu gagnes, je me retire et te donne toutes mes économies. Peu de chances que ça arrive, parce que l'élu, c'est moi !"</value>
+	</data>
+	<data name="MES_11_TITLE" xml:space="preserve">
+		<value>Défi de brasseur !</value>
+	</data>
+	<data name="MES_12_CHOICE_1" xml:space="preserve">
+		<value>"Je les ai déjà." [-1000 Bière]</value>
+	</data>
+	<data name="MES_12_CHOICE_2" xml:space="preserve">
+		<value>"Je les ai déjà. Je vais les livrer moi-même, au cas où..." [-1000 Bière]</value>
+	</data>
+	<data name="MES_12_CHOICE_3" xml:space="preserve">
+		<value>"Laisse tomber, je n'ai plus envie de jouer. J'abandonne."</value>
+	</data>
+	<data name="MES_12_DESCRIPTION" xml:space="preserve">
+		<value>C'est parti ! 
+
+Pour commencer, voyons lequel de nous deux produira 1000 unités de bière en 30 secondes. Si tu gagnes, je les livre moi-même, et te reverse les profits, promis !
+Avec mes contacts, 800 BeerCoins devraient revenir au vainqueur.</value>
+	</data>
+	<data name="MES_12_TITLE" xml:space="preserve">
+		<value>Défi de brasseur ! (2)</value>
+	</data>
+	<data name="MES_13_CHOICE_1" xml:space="preserve">
+		<value>"Petit joueur, 4000 BeerCoins, ça fait des heures que je les ai."</value>
+	</data>
+	<data name="MES_13_CHOICE_2" xml:space="preserve">
+		<value>"J'ai de meilleures choses à faire... J'abandonne."</value>
+	</data>
+	<data name="MES_13_DESCRIPTION" xml:space="preserve">
+		<value>Eh bien, tu m'as l'air d'être un concurrent sérieux... Ok, continuons. 
+Maintenant, on va voir qui peut gagner 4000 BeerCoins en 60 secondes.
+Cette fois, je vais gagner, c'est sûr ! </value>
+	</data>
+	<data name="MES_13_TITLE" xml:space="preserve">
+		<value>Défi de brasseur ! (3)</value>
+	</data>
+	<data name="MES_14_CHOICE_1" xml:space="preserve">
+		<value>"J'ai un manipulateur d'opinions, si c'est à ça que tu penses."</value>
+	</data>
+	<data name="MES_14_CHOICE_2" xml:space="preserve">
+		<value>"J'ai ce qu'il faut." [Utiliser le manipulateur d'opinion sur Eston.]</value>
+	</data>
+	<data name="MES_14_CHOICE_3" xml:space="preserve">
+		<value>"Aucun intérêt, du moment que j'ai de la bière... J'abandonne."</value>
+	</data>
+	<data name="MES_14_DESCRIPTION" xml:space="preserve">
+		<value>Mpf, tu as triché, ou quoi ?
+Tu peux produire de la bière, gagner de l'argent, mais est-ce que tu as assez de talent pour manipuler les gens ? Pour t'assurer qu'ils achèteront ta bière, et que tu ne seras plus jamais un pauvre brasseur alcoolisé ?! 
+Non, non, je ne parle pas du tout de ma propre expérience... </value>
+	</data>
+	<data name="MES_14_TITLE" xml:space="preserve">
+		<value>Défi de brasseur ! (4)</value>
+	</data>
+	<data name="MES_15_CHOICE_1" xml:space="preserve">
+		<value>"Mais oui, bien sûr."</value>
+	</data>
+	<data name="MES_15_CHOICE_2" xml:space="preserve">
+		<value>"Donne-moi juste l'argent..."</value>
+	</data>
+	<data name="MES_15_DESCRIPTION" xml:space="preserve">
+		<value>Mince, comment tu as su ?!
+Bon, d'accord... Je t'accepte officiellement comme mon rival ! Félicitations !
+Comme promis, voici mes économies, 3000 BC. Je gagnerai bientôt deux fois plus, de toute façon, pas de souci.
+C'est moi le meilleur brasseur, après tout.</value>
+	</data>
+	<data name="MES_15_TITLE" xml:space="preserve">
+		<value>Brewer Challenge! (5)</value>
+	</data>
+	<data name="MES_16_CHOICE_1" xml:space="preserve">
+		<value>"Finally..."</value>
+	</data>
+	<data name="MES_16_CHOICE_2" xml:space="preserve">
+		<value>"And you can never send me a message again."</value>
+	</data>
+	<data name="MES_16_DESCRIPTION" xml:space="preserve">
+		<value>"What... Hey... What did you do to me?
+I feel really good right now... You know what? I think I am going to buy your beers... and give you 4000 BC..."</value>
+	</data>
+	<data name="MES_16_TITLE" xml:space="preserve">
+		<value>Défi de brasseur ! (5)</value>
+	</data>
+	<data name="MES_17_DESCRIPTION" xml:space="preserve">
+		<value>AHAH ! Je savais que je gagnerais !
+Personne ne peut battre l'incroyable Eston ! Ne t'inquiètes pas, si tu as besoin t'aide tu pourras venir me voir, je suis toujours disponible pour les débutants !
+Tu sais, quand j'étais plus jeune...
+
+[[Le mail détaille encore et encore l'enfance d'Eston...]]</value>
+	</data>
+	<data name="MES_17_TITLE" xml:space="preserve">
+		<value>Défi de brasseur : J'ai gagné !</value>
+	</data>
+	<data name="MES_18_CHOICE_1" xml:space="preserve">
+		<value>"MAIS AVEC PLAIS-. Je veux dire, ça ne m'arrange pas du tout mais... d'accord."</value>
+	</data>
+	<data name="MES_18_CHOICE_2" xml:space="preserve">
+		<value>"Désolé, j'ai trop besoin d'eux pour l'instant."</value>
+	</data>
+	<data name="MES_18_DESCRIPTION" xml:space="preserve">
+		<value>Hé, désolé de vous embêter, mais je suis capitaine d'un vaisseau et on vient de perdre un membre d'équipage. Vous pourriez nous envoyer un de vos brasseurs ? On est prêt à mettre le prix.
+
+OFFRE : 
+1 brasseur pour 1000 BC</value>
+	</data>
+	<data name="MES_18_TITLE" xml:space="preserve">
+		<value>Proposition commerciale : Brasseur</value>
+	</data>
+	<data name="MES_19_CHOICE_1" xml:space="preserve">
+		<value>[Vendre 1000 Bières pour 2500 BeerCoins]</value>
+	</data>
+	<data name="MES_19_CHOICE_2" xml:space="preserve">
+		<value>[Vendre 1500 Bières pour 4000 BeerCoins]</value>
+	</data>
+	<data name="MES_19_CHOICE_3" xml:space="preserve">
+		<value>[Vendre 3000 Bières pour 7500 BeerCoins]</value>
+	</data>
+	<data name="MES_19_DESCRIPTION" xml:space="preserve">
+		<value>Bonjour. 
+Marchand renommé, et actuellement itinérant de galaxie en galaxie, je souhaiterais renouveler mon stock de bière. J'ai entendu de bonnes chose sur la votre durant mes voyages. Voici donc ce que je vous propose, des offres à ne pas manquer, assurément : 
+
+OFFRES :
+1000 Bières pour 2500 BeerCoins
+1500 Bières pour 4000 BeerCoins
+3000 Bières pour 7500 BeerCoins</value>
+	</data>
+	<data name="MES_19_TITLE" xml:space="preserve">
+		<value>Proposition commerciale : Bière</value>
+	</data>
+	<data name="MES_20_CHOICE_1" xml:space="preserve">
+		<value>"Je crois que vous vous êtes trompée d'adresse..."</value>
+	</data>
+	<data name="MES_20_CHOICE_2" xml:space="preserve">
+		<value>"Bien sûr, mais j'ai oublié ma carte bancaire, tu peux m'envoyer un peu d'argent ?"</value>
+	</data>
+	<data name="MES_20_DESCRIPTION" xml:space="preserve">
+		<value>Hé, chéri, n'oublie de passer acheter le nouvel écran plasma avant de rentrer à la maison ce soir ! </value>
+	</data>
+	<data name="MES_20_TITLE" xml:space="preserve">
+		<value>Nouvel écran plasma !</value>
+	</data>
+	<data name="MES_21_CHOICE_1" xml:space="preserve">
+		<value>"Pas de problème."</value>
+	</data>
+	<data name="MES_21_DESCRIPTION" xml:space="preserve">
+		<value>Oh, je suis vraiment désolée ! Merci de m'avoir prévenue !</value>
+	</data>
+	<data name="MES_21_TITLE" xml:space="preserve">
+		<value>Nouvel écran plasma ! (2)</value>
+	</data>
+	<data name="MES_22_CHOICE_1" xml:space="preserve">
+		<value>[Ajouter 300 BC à votre compte.]</value>
+	</data>
+	<data name="MES_22_DESCRIPTION" xml:space="preserve">
+		<value>Tu devrais faire plus attention à tes affaires !
+Tiens, ça devrait suffir pour le modèle dont on a parlé.</value>
+	</data>
+	<data name="MES_22_TITLE" xml:space="preserve">
+		<value>Nouvel écran plasma ! (2)</value>
+	</data>
+	<data name="MES_23_DESCRIPTION" xml:space="preserve">
+		<value>C'est ton robot qui te parle.
+
+Exactement comme le dit l'objet. J'ai parié avec les autres robots que tu ne durerais même pas un mois. Tu me dois de l'argent.</value>
+	</data>
+	<data name="MES_23_TITLE" xml:space="preserve">
+		<value>6 mois et tu es toujours pas mort ?</value>
+	</data>
+	<data name="MES_24_DESCRIPTION" xml:space="preserve">
+		<value>C'est ton robot qui te parle.
+
+... C'est pas possible. Tu dois VRAIMENT aimer la bière. Que quelqu'un me sauve de cet enfer...
+
+Ah, oui, bien joué, tout ça.</value>
+	</data>
+	<data name="MES_24_TITLE" xml:space="preserve">
+		<value>Bon, t'as gagné...</value>
+	</data>
+	<data name="MES_25_CHOICE_1" xml:space="preserve">
+		<value>[Envoyer 2500 BC]</value>
+	</data>
+	<data name="MES_25_CHOICE_2" xml:space="preserve">
+		<value>[Envoyer 1000 BC]</value>
+	</data>
+	<data name="MES_25_CHOICE_3" xml:space="preserve">
+		<value>[Envoyer 1000 BC et une lettre à leurs ennemis]</value>
+	</data>
+	<data name="MES_25_DESCRIPTION" xml:space="preserve">
+		<value>Ok mon ami, voilà la situation.
+Je représente un grand parti politique, je ne peux pas te dire son nom mais ils sont totalement pro-bière. On se bat contre nos rivaux pour s'assurer que la bière reste la meilleure boisson de la galaxie ! Malheureusement, pour l'instant ils ont trop de pouvoir...
+Aide-nous (ce qui veut dire donne nous des billets verts) et nous nous assurerons que tu sois récompensé quand nous les aurons battus !</value>
+	</data>
+	<data name="MES_25_TITLE" xml:space="preserve">
+		<value>Problèmes politiques</value>
+	</data>
+	<data name="MES_26_CHOICE_1" xml:space="preserve">
+		<value>[Ajouter 3500 BC à votre compte.]</value>
+	</data>
+	<data name="MES_26_DESCRIPTION" xml:space="preserve">
+		<value>On a gagné !
+Grace à ton argent, nous avons pu acheter tous les politiciens corrompus. Maintenant que nous pouvons voler l'argent du peuple sans gêne, voilà ta part !</value>
+	</data>
+	<data name="MES_26_TITLE" xml:space="preserve">
+		<value>Problèmes politiques (2)</value>
+	</data>
+	<data name="MES_27_CHOICE_1" xml:space="preserve">
+		<value>"Quelle arnaque..."</value>
+	</data>
+	<data name="MES_27_DESCRIPTION" xml:space="preserve">
+		<value>On a perdu... Il nous reste un peu de pouvoir dans le gouvernement actuel mais j'ai bien peur qu'on ne puisse pas te rendre ton argent... Sans racune, hein ?</value>
+	</data>
+	<data name="MES_27_TITLE" xml:space="preserve">
+		<value>Problèmes politiques (2)</value>
+	</data>
+	<data name="MES_28_CHOICE_1" xml:space="preserve">
+		<value>[Ajouter 1500 BC à votre compte.]</value>
+	</data>
+	<data name="MES_28_DESCRIPTION" xml:space="preserve">
+		<value>Ici Sir Admur, je vous écris par rapport aux problèmes politiques dont vous m'avez fait part.
+Merci de m'avoir parlé des actes néfastes de nos rivaux. Nous ne sommes peut-être pas ""pro-bière"", comme il le dit, mais nous sommes loyaux envers le peuple.
+Je vous rends votre argent, pour vous remercier d'avoir été si honorable.</value>
+	</data>
+	<data name="MES_28_TITLE" xml:space="preserve">
+		<value>Problèmes politiques (2)</value>
+	</data>
+	<data name="MES_FROM" xml:space="preserve">
+		<value>De:</value>
+	</data>
+	<data name="MES_NO_COMM_POST" xml:space="preserve">
+		<value>------ POSTE DE COMMUNICATION NECESSAIRE POUR REPONDRE AUX MAILS ------</value>
+	</data>
+	<data name="MIS_01_DESCRIPTION_1" xml:space="preserve">
+		<value>Livrez un peu de bière aux assoiffés</value>
+	</data>
+	<data name="MIS_01_DESCRIPTION_2" xml:space="preserve">
+		<value>Aidez les gens à devenir pompette avec votre remarquable bière !</value>
+	</data>
+	<data name="MIS_01_NAME" xml:space="preserve">
+		<value>Petite Livraison</value>
+	</data>
+	<data name="MIS_02_DESCRIPTION_1" xml:space="preserve">
+		<value>Livrez beaucoup de bière aux assoiffés</value>
+	</data>
+	<data name="MIS_02_DESCRIPTION_2" xml:space="preserve">
+		<value>Aidez les gens à finir ivres morts avec votre remarquable bière !</value>
+	</data>
+	<data name="MIS_02_NAME" xml:space="preserve">
+		<value>Grosse Livraison</value>
+	</data>
+	<data name="MIS_03_DESCRIPTION_1" xml:space="preserve">
+		<value>Détruis le stock de bière d'un concurrent</value>
+	</data>
+	<data name="MIS_03_NAME" xml:space="preserve">
+		<value>Aidez à financer une campagne pour gagner le soutien du président</value>
+	</data>
+	<data name="MIS_04_DESCRIPTION_1" xml:space="preserve">
+		<value>Avoir de bonnes critiques est plus facile qu'on ne le pense</value>
+	</data>
+	<data name="MIS_04_DESCRIPTION_2" xml:space="preserve">
+		<value>Aidez à financer une campagne pour gagner le soutien du président</value>
+	</data>
+	<data name="MIS_04_NAME" xml:space="preserve">
+		<value>Soudoyer le président</value>
+	</data>
+	<data name="MIS_05_DESCRIPTION_1" xml:space="preserve">
+		<value>Comme une livraison classique, en plus dangereux</value>
+	</data>
+	<data name="MIS_05_DESCRIPTION_2" xml:space="preserve">
+		<value>Attention, ce secteur n'est PAS amical</value>
+	</data>
+	<data name="MIS_05_NAME" xml:space="preserve">
+		<value>Livraison Dangereuse</value>
+	</data>
+	<data name="MIS_06_DESCRIPTION_1" xml:space="preserve">
+		<value>Ils ont dit que votre bière avait le goût de chaussettes.</value>
+	</data>
+	<data name="MIS_06_DESCRIPTION_2" xml:space="preserve">
+		<value>Gagner ou voler de l'argent, telle est la question.</value>
+	</data>
+	<data name="MIS_06_NAME" xml:space="preserve">
+		<value>Voler une famille rivale</value>
+	</data>
+	<data name="MIS_07_DESCRIPTION_1" xml:space="preserve">
+		<value>Ca leur apprendra à rivaliser avec vous!</value>
+	</data>
+	<data name="MIS_07_DESCRIPTION_2" xml:space="preserve">
+		<value>Les explosions, c'est bien !</value>
+	</data>
+	<data name="MIS_07_NAME" xml:space="preserve">
+		<value>Faire exploser le stock d'un rival</value>
+	</data>
+	<data name="MIS_08_DESCRIPTION_1" xml:space="preserve">
+		<value>Complétez votre équipe avec des ingénieurs au top-niveau</value>
+	</data>
+	<data name="MIS_08_DESCRIPTION_2" xml:space="preserve">
+		<value>Trouvez quelqu'un d'assez stupide pour travailler pour vous</value>
+	</data>
+	<data name="MIS_08_NAME" xml:space="preserve">
+		<value>Recruter un expert</value>
+	</data>
+	<data name="MIS_09_DESCRIPTION_1" xml:space="preserve">
+		<value>Convainquez une autre famille d'échanger des recettes avec vous</value>
+	</data>
+	<data name="MIS_09_DESCRIPTION_2" xml:space="preserve">
+		<value>Partager, c'est aimer ! Aidez les autres familles !</value>
+	</data>
+	<data name="MIS_09_NAME" xml:space="preserve">
+		<value>Echanger des recettes</value>
+	</data>
+	<data name="MIS_10_DESCRIPTION_1" xml:space="preserve">
+		<value>Couvrez les gens de bière et regardez-les vous vénérer.</value>
+	</data>
+	<data name="MIS_10_NAME" xml:space="preserve">
+		<value>Livraison Divine</value>
+	</data>
+	<data name="MIS_11_DESCRIPTION_1" xml:space="preserve">
+		<value>Quelques panneaux publicitaires, des pop-ups en ligne, la routine.</value>
+	</data>
+	<data name="MIS_11_NAME" xml:space="preserve">
+		<value>Marketing</value>
+	</data>
+	<data name="MIS_12_DESCRIPTION_1" xml:space="preserve">
+		<value>Ca vaut le coup si plus de gens peuvent boire en paix.</value>
+	</data>
+	<data name="MIS_12_NAME" xml:space="preserve">
+		<value>Engager des forces de défense</value>
+	</data>
+	<data name="MIS_13_DESCRIPTION_1" xml:space="preserve">
+		<value>[Utilise le Manipulateur Mental] Des fausses lois ici et là et voilà, plus d'argent !</value>
+	</data>
+	<data name="MIS_13_NAME" xml:space="preserve">
+		<value>Influencer le Président</value>
+	</data>
+	<data name="MIS_14_DESCRIPTION_1" xml:space="preserve">
+		<value>Même pas besoin de les former.</value>
+	</data>
+	<data name="MIS_14_NAME" xml:space="preserve">
+		<value>Kidnapper le brasseur d'un rival</value>
+	</data>
+	<data name="MIS_15_DESCRIPTION_1" xml:space="preserve">
+		<value>Ca, c'est pas une bonne chose à faire.</value>
+	</data>
+	<data name="MIS_15_NAME" xml:space="preserve">
+		<value>Arrangement avec le Crime</value>
+	</data>
+	<data name="MIS_16_DESCRIPTION_1" xml:space="preserve">
+		<value>[Utilise le Manipulateur Mental] Pourquoi influencer une seule personne quand on peut influencer une foule toute entière ?</value>
+	</data>
+	<data name="MIS_16_NAME" xml:space="preserve">
+		<value>Coup d'état</value>
+	</data>
+	<data name="OBJ_CATEGORY" xml:space="preserve">
+		<value>Catégorie :</value>
+	</data>
+	<data name="OBJ_CATEGORY_1" xml:space="preserve">
+		<value>Brasserie</value>
+	</data>
+	<data name="OBJ_CATEGORY_2" xml:space="preserve">
+		<value>Défense</value>
+	</data>
+	<data name="OBJ_CATEGORY_3" xml:space="preserve">
+		<value>Communication</value>
+	</data>
+	<data name="OBJ_CATEGORY_4" xml:space="preserve">
+		<value>Général</value>
+	</data>
+	<data name="OBJ_CATEGORY_5" xml:space="preserve">
+		<value>Editeur de salles</value>
+	</data>
+	<data name="OBJ_COST" xml:space="preserve">
+		<value>Coût :</value>
+	</data>
+	<data name="OBJ_NAME_1" xml:space="preserve">
+		<value>Fût</value>
+	</data>
+	<data name="OBJ_NAME_2" xml:space="preserve">
+		<value>Detox</value>
+	</data>
+	<data name="OBJ_NAME_3" xml:space="preserve">
+		<value>Cuve de brassage</value>
+	</data>
+	<data name="OBJ_NAME_4" xml:space="preserve">
+		<value>Pare-feu</value>
+	</data>
+	<data name="OBJ_NAME_5" xml:space="preserve">
+		<value>Antenne</value>
+	</data>
+	<data name="OBJ_NAME_6" xml:space="preserve">
+		<value>Manipulateur d'esprit</value>
+	</data>
+	<data name="OBJ_NAME_7" xml:space="preserve">
+		<value>Traducteur galactique</value>
+	</data>
+	<data name="OBJ_NAME_8" xml:space="preserve">
+		<value>Poste de commande</value>
+	</data>
+	<data name="OBJ_NAME_9" xml:space="preserve">
+		<value>Station de communication</value>
+	</data>
+	<data name="OBJ_RETURN" xml:space="preserve">
+		<value>Retour</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_ANTENNA" xml:space="preserve">
+		<value>Augmente la probabilité de recevoir des messages.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_COMMAND" xml:space="preserve">
+		<value>Nécessaire pour donner des missions à tes mercenaires.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_COMMUNICATION" xml:space="preserve">
+		<value>Nécessaire pour répondre aux messages.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_DETOX" xml:space="preserve">
+		<value>Aide les brasseurs à se dessaouler plus vite.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_KEG" xml:space="preserve">
+		<value>Augmente le stock de bière maximum.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_KETTLE" xml:space="preserve">
+		<value>Produit de la bière. L'objet de le plus important de la brasserie.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_MIND" xml:space="preserve">
+		<value>Décloquer des missions spéciales et des réponses à certains messages.</value>
+	</data>
+	<data name="OBJECT_DESCRIPTION_TRANSLATOR" xml:space="preserve">
+		<value>Augmente la probabilité de recevoir des messages pré-traduits.</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_1" xml:space="preserve">
+		<value>"Je m'ennuie tellement"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_10" xml:space="preserve">
+		<value>"Que du travail, aucune pause..."</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_11" xml:space="preserve">
+		<value>"TUEEEEEEER"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_12" xml:space="preserve">
+		<value>"Merci pour toute la bière"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_13" xml:space="preserve">
+		<value>Réparation</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_14" xml:space="preserve">
+		<value>"Booarf *hoquet*"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_15" xml:space="preserve">
+		<value>En coma éthylique</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_2" xml:space="preserve">
+		<value>"Rien n'en vaut une bien fraiche !"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_3" xml:space="preserve">
+		<value>"Faisons des trucs sur des machins... Super !"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_4" xml:space="preserve">
+		<value>Construction</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_5" xml:space="preserve">
+		<value>Amélioration</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_6" xml:space="preserve">
+		<value>DESTRUCTION !</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_7" xml:space="preserve">
+		<value>"Je m'en fiche"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_8" xml:space="preserve">
+		<value>"Personne ne dit ça sur ma mère !"</value>
+	</data>
+	<data name="SAIL_ACTION_TEXT_9" xml:space="preserve">
+		<value>"Ah oui ? Bah tu l'as cherché."</value>
+	</data>
+	<data name="SAIL_SPEC_1" xml:space="preserve">
+		<value>Marrant</value>
+	</data>
+	<data name="SAIL_SPEC_2" xml:space="preserve">
+		<value>Mesquin</value>
+	</data>
+	<data name="SAIL_SPEC_3" xml:space="preserve">
+		<value>Ennuyant</value>
+	</data>
+	<data name="SECT_NAME_0" xml:space="preserve">
+		<value>Maison</value>
+	</data>
+	<data name="SECT_NAME_1" xml:space="preserve">
+		<value>Vinrz</value>
+	</data>
+	<data name="SECT_NAME_10" xml:space="preserve">
+		<value>Le Centre</value>
+	</data>
+	<data name="SECT_NAME_11" xml:space="preserve">
+		<value>Trantor</value>
+	</data>
+	<data name="SECT_NAME_2" xml:space="preserve">
+		<value>Vlunch</value>
+	</data>
+	<data name="SECT_NAME_3" xml:space="preserve">
+		<value>Vlouf</value>
+	</data>
+	<data name="SECT_NAME_4" xml:space="preserve">
+		<value>Gruntor</value>
+	</data>
+	<data name="SECT_NAME_5" xml:space="preserve">
+		<value>Birnt</value>
+	</data>
+	<data name="SECT_NAME_6" xml:space="preserve">
+		<value>Star's End</value>
+	</data>
+	<data name="SECT_NAME_7" xml:space="preserve">
+		<value>Ileura</value>
+	</data>
+	<data name="SECT_NAME_8" xml:space="preserve">
+		<value>La Comté</value>
+	</data>
+	<data name="SECT_NAME_9" xml:space="preserve">
+		<value>Elmonin</value>
+	</data>
+	<data name="TUTO_1" xml:space="preserve">
+		<value>Bienvenue dans ta brasserie spatiale ! Je suis responsable de ta formation. Tu as désormais une Licence de Brassage officielle, et tu devras payer régulièrement pour la renouveler. Tu peux pas payer, tu dégages. Son prix augmentera avec le temps, évidemment…</value>
+	</data>
+	<data name="TUTO_10" xml:space="preserve">
+		<value>Maintenant, il faut la placer. Les cases sont rouges quand la place est insuffisante, et vertes quand la place est libre. Même toi, tu devrais comprendre ça… Quand tu es satisfait, clique et ton brasseur s’occupera du reste. Astuce : « R » pour tourner l’objet, « Echap » pour annuler.</value>
+	</data>
+	<data name="TUTO_11" xml:space="preserve">
+		<value>Fantastique ! On dirait que tu es capable de suivre des consignes simples. Pas mal, pour un singe intelligent. Maintenant, plus qu’à attendre la fin de la construction.</value>
+	</data>
+	<data name="TUTO_12" xml:space="preserve">
+		<value>Cette cuve est plutôt sophistiquée. Elle va produire de la bière en continu, sans intervention extérieure, dès que ce tutoriel sera fini. C’est beau, la technologie !</value>
+	</data>
+	<data name="TUTO_13" xml:space="preserve">
+		<value>Ok, c’est bien beau tout ça, mais tu ne peux pas tout régler avec de la bière, beaucoup ont essayé… En vrai, tu vas avoir besoin d’argent. Et la meilleure manière d’en gagner est, étonnamment… de vendre ta bière ! « Mais dis-moi, O merveilleuse machine, je fais comment ? » Et bien, ne crains rien, être inférieur, les missions sont là pour ça, justement.</value>
+	</data>
+	<data name="TUTO_14" xml:space="preserve">
+		<value>Les missions sont des contrats qui te permettent payer des mercenaires pour faire les choses à ta place. Livraisons de bière, campagnes publicitaires, magouilles d’espions, la totale ! Pour débloquer cet aspect crucial de la gestion de ta brasserie, tu dois construire un “Poste de commande”.</value>
+	</data>
+	<data name="TUTO_15" xml:space="preserve">
+		<value>Au cas où : sélectionne un brasseur, puis clique sur l’icône « Construction ». Le Poste de commande est dans la catégorie « Général ».</value>
+	</data>
+	<data name="TUTO_16" xml:space="preserve">
+		<value>Très bien ! Honnêtement, je ne pensais pas que tu irais aussi loin… Tu vois, le bouton “Poste de Commande” vient d’apparaître en haut de l’écran. Clique dessus.</value>
+	</data>
+	<data name="TUTO_17" xml:space="preserve">
+		<value>Sur la carte, tu peux voir les autres secteurs de la galaxie. Ce sont tes rivaux, d’autres Familles de brasseurs. Clique sur un secteur pour en savoir plus.</value>
+	</data>
+	<data name="TUTO_18" xml:space="preserve">
+		<value>Il y a différents types de missions, mais on va commencer par une simple Livraison de bière. Tu as assez de stock pour lancer une « Petite Livraison ». Clique sur la mission, puis valide. C’est pas si compliqué.</value>
+	</data>
+	<data name="TUTO_19" xml:space="preserve">
+		<value>Parfait, maintenant tes mercenaires s’occupent de tout. Leur succès dépend de pas mal de facteurs :   la distance du secteur, son hostilité, sa richesse, ta réputation, l’alignement des planètes… Ce genre de choses. Plus les bandits, les pièges, les trous noirs… Tout peut arriver.</value>
+	</data>
+	<data name="TUTO_2" xml:space="preserve">
+		<value>Avant tout, parlons des contrôles caméra. Maintiens le clic droit enfoncé en déplaçant ta souris pour bouger la caméra. Utilise la molette pour zoomer. Les touches “Q” et “D” la font pivoter. Tu as déjà mal au crâne ? Moi aussi.</value>
+	</data>
+	<data name="TUTO_20" xml:space="preserve">
+		<value>Les missions ça suffit pour l’instant. Ferme ce panneau, il me sort par les yeux. T’inquiète, la mission continue même quand le panneau est fermé. Je me ferai un « plaisir » de t’informer du résultat.</value>
+	</data>
+	<data name="TUTO_21" xml:space="preserve">
+		<value>Ok, on a presque fini. Laisse-moi juste te parler des événements. Il y a du monde dans cette galaxie vu que vous vous reproduisez comme des lapins. Et de temps en temps, quelqu’un te contactera. Avec de bonnes nouvelles, ou des mauvaises…</value>
+	</data>
+	<data name="TUTO_22" xml:space="preserve">
+		<value>Ouvre la boîte de réception avec le bouton « Station de communication » en haut de l’écran. Pour répondre, tu dois construire une « Station de communication » (dans la catégorie « Général »). Si tu as déjà oublié comment construire un objet, je peux rien faire pour toi…</value>
+	</data>
+	<data name="TUTO_23" xml:space="preserve">
+		<value>Je suis sûr que tu sais te servir d’une boîte de réception. Les messages importants s’ouvriront automatiquement, mais garde aussi un oeil sur les normaux.</value>
+	</data>
+	<data name="TUTO_24" xml:space="preserve">
+		<value>Pfiou, tu peux ENFIN t’occuper seul de ta brasserie !</value>
+	</data>
+	<data name="TUTO_25" xml:space="preserve">
+		<value>Ah mince, attends, j’ai oublié un petit détail. Tes brasseurs sont tous de gros alcooliques. Si tu ne veux pas les voir tomber en coma éthylique ou s’entretuer pour une pinte, tu devras surveiller leur taux d’alcoolémie. Regarde la jauge autour de leur portrait. En jaune, c’est l’ivresse. En rouge, c’est le manque.</value>
+	</data>
+	<data name="TUTO_26" xml:space="preserve">
+		<value>Voilà, tu as encore beaucoup à apprendre (sans blague). Mais mon programme de formation obligatoire s’arrête ici. Débrouille-toi maintenant, j’ai autre chose à faire…</value>
+	</data>
+	<data name="TUTO_3" xml:space="preserve">
+		<value>Bref, si tu veux t’en sortir, il va falloir BIEN m’écouter. Brasser de la bière n’est pas si facile. Il y a deux objets indispensables : la cuve, pour brasser la bière, et le fut, pour la stocker. Attends, je t’entends déjà me dire “Mais, crétin de robot, ça n’a pas du tout l’air compliqué !”… Faux ! Il y plein de trucs à prendre en compte, mais si tu veux arrêter mon programme de tutoriel maintenant et perdre, tu peux toujours cliquer sur "SUPPR"...</value>
+	</data>
+	<data name="TUTO_4" xml:space="preserve">
+		<value>Comme je suis sûr que tu as déjà oublié la moitié de ce que je t’ai dit, commençons en douceur. Construisons une cuve de brassage. Et je veux pas de ton bazar dans la salle de repos.</value>
+	</data>
+	<data name="TUTO_5" xml:space="preserve">
+		<value>Au fait, c’est pour toi. Un peu d’argent, rien d’extraordinaire. La maison mère ne veut pas que tu te casses la figure en moins d’une minute…</value>
+	</data>
+	<data name="TUTO_6" xml:space="preserve">
+		<value>Tous tes brasseurs sont ici, pour que tu puisses les sélectionner facilement. Vas-y, clique sur un brasseur pour lui donner un ordre.</value>
+	</data>
+	<data name="TUTO_7" xml:space="preserve">
+		<value>Ils peuvent construire, réparer, améliorer et détruire des objets (chaque action correspond, dans l’ordre, à l’un des quatre boutons). Surtout détruire. Vous les humains, ça vous plaît de casser des trucs. Bref, clique sur l’icône “Construire”.</value>
+	</data>
+	<data name="TUTO_8" xml:space="preserve">
+		<value>Maintenant, clique sur l’icône de la catégorie “Brasserie”. Et dépêche, j’ai pas toute la journée.</value>
+	</data>
+	<data name="TUTO_9" xml:space="preserve">
+		<value>Bon, sélectionne la cuve. Rha, je déteste ces saletés de tutos…</value>
+	</data>
+	<data name="UI_COMM_POST_BTN" xml:space="preserve">
+		<value>Station Communication</value>
+	</data>
+	<data name="UI_COMMAND_POST_BTN" xml:space="preserve">
+		<value>Poste Commande</value>
+	</data>
+	<data name="UI_FAM_PANE_HISTORY_HEADER" xml:space="preserve">
+		<value>Histoire</value>
+	</data>
+	<data name="UI_FAM_PANE_START" xml:space="preserve">
+		<value>Commencer</value>
+	</data>
+	<data name="UI_FAM_PANE_STATS_BEER" xml:space="preserve">
+		<value>Bière initiale :</value>
+	</data>
+	<data name="UI_FAM_PANE_STATS_HEADER" xml:space="preserve">
+		<value>Statistiques</value>
+	</data>
+	<data name="UI_FAM_PANE_STATS_MONEY" xml:space="preserve">
+		<value>Argent initial :</value>
+	</data>
+	<data name="UI_FAM_PANE_STATS_REPUT" xml:space="preserve">
+		<value>Réputation initiale :</value>
+	</data>
+	<data name="UI_GAMEOVER_RETRY" xml:space="preserve">
+		<value>Réessayer</value>
+	</data>
+	<data name="UI_MENU_OPTIONS" xml:space="preserve">
+		<value>OPTIONS</value>
+	</data>
+	<data name="UI_MENU_PLAY" xml:space="preserve">
+		<value>JOUER</value>
+	</data>
+	<data name="UI_MENU_QUIT" xml:space="preserve">
+		<value>QUITTER</value>
+	</data>
+	<data name="UI_MES_PANE_SUB_TITLE" xml:space="preserve">
+		<value>C'est ici que les gens t'envoient des messages à propos de choses et d'autres.</value>
+	</data>
+	<data name="UI_MES_PANE_TITLE" xml:space="preserve">
+		<value>Messages</value>
+	</data>
+	<data name="UI_MIS_PANE_QUIT" xml:space="preserve">
+		<value>Annuler</value>
+	</data>
+	<data name="UI_MIS_PANE_STAT_COST" xml:space="preserve">
+		<value>Coût :</value>
+	</data>
+	<data name="UI_MIS_PANE_STAT_DURATION" xml:space="preserve">
+		<value>Durée :</value>
+	</data>
+	<data name="UI_MIS_PANE_STAT_REWARD" xml:space="preserve">
+		<value>Récompense :</value>
+	</data>
+	<data name="UI_MIS_PANE_STAT_SECTOR" xml:space="preserve">
+		<value>Secteur :</value>
+	</data>
+	<data name="UI_MIS_PANE_STAT_SUCCESS" xml:space="preserve">
+		<value>Succès :</value>
+	</data>
+	<data name="UI_MIS_PANE_STATS_HOSTILITY" xml:space="preserve">
+		<value>Hostilité :</value>
+	</data>
+	<data name="UI_MIS_PANE_STATS_REPUT" xml:space="preserve">
+		<value>Argent / Bière :</value>
+	</data>
+	<data name="UI_MIS_PANE_STATS_WEALTH" xml:space="preserve">
+		<value>Clients potentiels :</value>
+	</data>
+	<data name="UI_MIS_PANE_TITLE" xml:space="preserve">
+		<value>Missions / Carte de la galaxie</value>
+	</data>
+	<data name="UI_MIS_PANE_TYPE_BTN_DELIVERY" xml:space="preserve">
+		<value>Livraison</value>
+	</data>
+	<data name="UI_MIS_PANE_TYPE_BTN_DIPLOMACY" xml:space="preserve">
+		<value>Diplomatie</value>
+	</data>
+	<data name="UI_MIS_PANE_TYPE_BTN_SABOTAGE" xml:space="preserve">
+		<value>Sabotage</value>
+	</data>
+	<data name="UI_OBJ_PANE_LIFE" xml:space="preserve">
+		<value>Durability</value>
+	</data>
+	<data name="UI_OBJ_PANE_UPGRADES" xml:space="preserve">
+		<value>Améliorations :</value>
+	</data>
+	<data name="UI_OPTIONS_LANG" xml:space="preserve">
+		<value>Langue</value>
+	</data>
+	<data name="UI_OPTIONS_LANG_1" xml:space="preserve">
+		<value>English</value>
+	</data>
+	<data name="UI_OPTIONS_LANG_2" xml:space="preserve">
+		<value>Français</value>
+	</data>
+	<data name="UI_OPTIONS_SOUNDS" xml:space="preserve">
+		<value>Sons</value>
+	</data>
+	<data name="UI_OPTIONS_TITLE" xml:space="preserve">
+		<value>OPTIONS</value>
+	</data>
+	<data name="UI_PAUSE_PANE_OPTIONS" xml:space="preserve">
+		<value>Options</value>
+	</data>
+	<data name="UI_PAUSE_PANE_QUIT" xml:space="preserve">
+		<value>Accueil</value>
+	</data>
+	<data name="UI_PAUSE_PANE_RESUME" xml:space="preserve">
+		<value>Reprendre</value>
+	</data>
+	<data name="UI_PAUSE_PANE_STATS" xml:space="preserve">
+		<value>Statistiques</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_1" xml:space="preserve">
+		<value>Numéro 1, le meilleur numéro</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_2" xml:space="preserve">
+		<value>Si proche et pourtant si lointain</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_3" xml:space="preserve">
+		<value>Top 3 ! Yeeaaah !</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_4" xml:space="preserve">
+		<value>De mieux en mieux…</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_5" xml:space="preserve">
+		<value>Pas si mal</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_6" xml:space="preserve">
+		<value>Meh</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_7" xml:space="preserve">
+		<value>C'est moi ou ça pue ?</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_8" xml:space="preserve">
+		<value>Vous êtes le maillon faible, au revoir.</value>
+	</data>
+	<data name="UI_RANK_PANE_POS_HEADER" xml:space="preserve">
+		<value>Concours de bière galactique</value>
+	</data>
+	<data name="UI_RANK_PANE_TITLE" xml:space="preserve">
+		<value>Le panneau du concours de bière</value>
+	</data>
+	<data name="UI_SAIL_PANE_ALCHOL" xml:space="preserve">
+		<value>Alcool :</value>
+	</data>
+	<data name="UI_SAIL_PANE_FIRE" xml:space="preserve">
+		<value>Virer</value>
+	</data>
+	<data name="UI_TAXES_HEADER" xml:space="preserve">
+		<value>Taxes Famille</value>
+	</data>
+	<data name="WORD_NEXT" xml:space="preserve">
+		<value>Suivant :</value>
+	</data>
+	<data name="WORD_TIME_LEFT" xml:space="preserve">
+		<value>Temps restant :</value>
+	</data>
+</root>

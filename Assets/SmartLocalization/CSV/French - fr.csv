@@ -1,0 +1,369 @@
+﻿ALCOOL_QUOTE_1;"I think the warning labels on alcoholic beverages are too bland. They should be more vivid. Here is one I would suggest: Alcohol will turn you into the same asshole your father was.
+<color=""#878787FF"">- George Carlin</color>"
+ALCOOL_QUOTE_2;"I would not put a thief in my mouth to steal my brains.
+<color=""#878787FF"">-  William Shakespeare, Othello</color>"
+ALCOOL_QUOTE_3;"I like to see the glass as half full, hopefully of jack daniels.
+<color=""#878787FF"">- Darynda Jones, First Grave on the Right</color>"
+ALCOOL_QUOTE_4;"Only Irish coffee provides in a single glass all four essential food groups: alcohol, caffeine, sugar and fat.
+<color=""#878787FF"">- Alex Levine</color>"
+ALCOOL_QUOTE_5;"Drinking is fun! It makes me feel horrible and sexy!
+<color=""#878787FF"">- Warren Ellis</color>"
+ALCOOL_QUOTE_6;"I'm not drunk, just a little stoned.
+<color=""#878787FF"">- Gerard Way</color>"
+ALCOOL_QUOTE_7;"Alcohol may be man's worst enemy, but the bible says love your enemy.
+<color=""#878787FF"">- Frank Sinatra</color>"
+FAMILY_ENEMY_1_NAME;Junker
+FAMILY_ENEMY_2_NAME;Vulcans
+FAMILY_ENEMY_3_NAME;Kuns
+FAMILY_ENEMY_4_NAME;Pierrafeu
+FAMILY_ENEMY_5_NAME;Martin
+FAMILY_ENEMY_6_NAME;Hunis
+FAMILY_ENEMY_7_NAME;Bebert
+FAMILY_ENEMY_8_NAME;ValJean
+FAMILY_PLAY_1_HISTORY;If there is one beer family people can relate to, it's the Pelicans. They are seen as a medium-sized, medium-quality family. But are they? Of course not! Show the world that the Pelicans can be the most powerful family and that everyone should taste they fruity ale!
+FAMILY_PLAY_1_NAME;Pelicans
+FAMILY_PLAY_2_HISTORY;"While it bothers some, the Kros are everywhere nowadays. They're often criticized for the poor quality of their simple lager, but without them what would teenagers drink? Show the world that even the simplest beer can win the heart (and liver) of millions! "
+FAMILY_PLAY_2_NAME;Kros
+FAMILY_PLAY_3_HISTORY;The Spucken used to be one of the most famous beer families in the whole universe, almost legends in the eyes of the drunken. Now ruined after years of legal problems, they will have a hard time retreiving their rightful place as beer leaders... You are here to make sure of that!
+FAMILY_PLAY_3_NAME;Spucken
+FAMILY_PLAY_NAME_LOCKED;Locked
+INFO_HEADER_1;Info
+INFO_HEADER_2;Youpi
+INFO_HEADER_3;ATTENTION
+INFO_TEXT_1;Nouveau Message !
+INFO_TEXT_10;Objet déjà amélioré
+INFO_TEXT_11;Objet en parfait état !
+INFO_TEXT_12;Objet en cours d'utilisation...
+INFO_TEXT_13;Un brasseur est parti en claquant la porte
+INFO_TEXT_14;C'est l'heure des taxes :)
+INFO_TEXT_15;Argent bas !
+INFO_TEXT_2;Mission accomplie !
+INFO_TEXT_3;Des bandits nous ont attaqués, échec de la mission...
+INFO_TEXT_4;Les négociations ont foiré, échec de la mission...
+INFO_TEXT_5;On s'est fait repérer, échec de la mission...
+INFO_TEXT_6;Pas assez d'argent !
+INFO_TEXT_7;Recherche terminée !
+INFO_TEXT_8;Un brassseur est mort !
+INFO_TEXT_9;Stock de bière bas !
+MES_01_CHOICE_1;[Sell 100 Beers for 150 BeerCoins.]
+MES_01_CHOICE_2;[Sell 200 Beers for 350 BeerCoins.]
+MES_01_CHOICE_3;[Sell 500 Beers for 850 BeerCoins.]
+MES_01_DESCRIPTION;"Hi, I am an intinerant merchant. I am a little low on my beer stock and I'd like to know if you'd be kind enough to sell me some. Of course I'll make sur to pay you generously.
+
+OFFERS : 
+100 Beers for 150 BeerCoins
+200 Beers for 350 BeerCoins
+500 Beers for 850 BeerCoins"
+MES_01_TITLE;Trade proposition: Beer
+MES_02_CHOICE_1;[Update the money count.]
+MES_02_DESCRIPTION;"Greetings, dear member of GalacticBank. 
+
+I have the regret to announce that an unidentified hacker stole 300 BeerCoins from your acount. Unfortunately, since the last stock market crash the bank doesn't cover hacking damages so you won't be reinbursed. 
+
+Thank you for chosing GalacticBank!"
+MES_02_TITLE;Your account was hacked
+MES_03_CHOICE_1;"""I like your style, here's your money."" [-50 BC]"
+MES_03_CHOICE_2;"""Not interested, good luck..."""
+MES_03_DESCRIPTION;"Do you want to be acclaimed? I can do it! 
+For only 50 BeerCoins I will write a poem praising your brewery. You won't find anything better in the entire galaxy, please hire me!
+ 
+Sample work: 
+Strong is the wine, inside my throat, 
+I start to whine, just like a goat"
+MES_03_TITLE;Poems from outer space
+MES_04_CHOICE_1;"""Nice, I'll recommand you!"""
+MES_04_DESCRIPTION;"""Thank you dear! Here's your poem:
+//insert here poem//"""
+MES_04_TITLE;Poems from outer space (2)
+MES_05_CHOICE_1;[Ignore the message.]
+MES_05_CHOICE_2;"""Why not?"""
+MES_05_DESCRIPTION;"Hello, my name is Julian and I'm going to reveal you a secret that will change your life! 
+Thanks to binary options, the galactic wall street is not reserved to the elite anymore! 
+Now YOU can get rich without doing ANYTHING, and with NO RISK AT ALL!!! 
+
+Follow this link to claim your free course. "
+MES_05_TITLE;WIN 10 000 BeerCoins in just 0.03seconds!!!!
+MES_06_CHOICE_1;"""Great, welcome aboard!"""
+MES_06_CHOICE_2;"""I have enough drunken minions, thanks."""
+MES_06_DESCRIPTION;Hey. I'll be quick: I am a brewer, I worked with your rivals but they exploited me so I decided to leave. Care to recruit me? I'll sure lead you to success.
+MES_06_TITLE;Willing to hire a new brewer?
+MES_07_CHOICE_1;[Buy the temporary Protection Field. [-1000 BC]]
+MES_07_CHOICE_2;[Ignore the message.]
+MES_07_DESCRIPTION;"DANGER!
+
+An asteroid field will soon come really close to your base: if you do not wish any damages to your belongings, you should take our Protection Field offer.
+Our offer is the cheapest on the market and will last until the perturbations are over.
+
+Thank you!"
+MES_07_TITLE;DANGER: Asteroid field
+MES_08_DESCRIPTION;"Unfortunately, an asteroid field has destroyed part of your beer stock. 
+
+As stipulated in your contract, all damages to the structure of the base are covered by your Family and we already repaired the damages but we cannot give you back the lost ressources.
+
+Thank you!"
+MES_08_TITLE;DANGER: Asteroid field (2)
+MES_09_CHOICE_1;"""Let them talk."""
+MES_09_CHOICE_2;"""Bribe them."" [-100 BC]"
+MES_09_CHOICE_3;"""Bribe them. A lot."" [-250 BC]"
+MES_09_CHOICE_4;"""Kill them."""
+MES_09_DESCRIPTION;"""Hey pal, how’s it going? Just a fellow member of the Family here.
+
+I’ve been hearing bad rumors about your brewery in some bars recently. 
+Probably one of your rival’s work, the usual uh? I’m willing to give you a hand if you want to make it stop, what do you think?"""
+MES_09_TITLE;Badmouth
+MES_10_CHOICE_1;[Send her a big box full of beers. [-400 Beer]]
+MES_10_CHOICE_2;[Send her only a few beers, as if they were the very best. [-100 Beer]]
+MES_10_CHOICE_3;[No need to pay attention to some little starlet.]
+MES_10_DESCRIPTION;"Hello love, Emelyn here, the best singer the galaxy has ever seen!
+
+I offer you the best occasion you could dream of: send me some of your beer and if I like it I might grant you the honor of making publicity for it. Aren't you amazed by my generosity?
+
+No need to answer, just send me the beer if that's okay with you. XOXO"
+MES_10_TITLE;Golden opportunity, sweetheart
+MES_11_CHOICE_1;"""Bring it on!"""
+MES_11_CHOICE_2;"""I don't have time for that..."""
+MES_11_DESCRIPTION;"My name is Eston, I will soon become the best brewer in the galaxy! 
+You managed to keep your brewery for some time but you’re still far behind me!
+Let’s have a contest to find out who is the best between us!
+If you win I'll step down and give you all my savings, but we know this will never happen for I am the chosen one!"
+MES_11_TITLE;Brewer Challenge!
+MES_12_CHOICE_1;"""Already got them."" [-1000 Beer]"
+MES_12_CHOICE_2;"""Already got them. I will deliver them myself, just in case."" [-1000 Beer]"
+MES_12_CHOICE_3;"""Nevermind, I don't want to play anymore. I quit."""
+MES_12_DESCRIPTION;"Let's begin!
+
+First, let's see who can make 1000 beer units in 30 seconds.
+If you win I'll deliver them myself and give your the money for it, scout's honor!"
+MES_12_TITLE;Brewer Challenge! (2)
+MES_13_CHOICE_1;"""You're a small game, I made 4000 BC hours ago."""
+MES_13_CHOICE_2;"""I have better things to do... I quit."""
+MES_13_DESCRIPTION;"Well, you appear to be a worthy rival... Fine then, let's continue.
+Now, let's see who can make 4000 BC in 60 seconds.
+I am sure I'll win this time!"
+MES_13_TITLE;Brewer Challenge! (3)
+MES_14_CHOICE_1;"""I have a mind manipulator, if that's what your talking about."""
+MES_14_CHOICE_2;"""I have what it takes."" [Use the mind manipulator on Eston.]"
+MES_14_CHOICE_3;"""I don't care about this, as long as I have beer... I quit."""
+MES_14_DESCRIPTION;"Mpf, did you cheat or something?
+You can get beer, you can get money, but do you have what it takes to truly manipulate people? To assure that your beer will be bought and that you'll never be a poor drunken brewer again?! 
+Not that it ever happened to me, of course..."
+MES_14_TITLE;Brewer Challenge! (4)
+MES_15_CHOICE_1;"""Yeah, right."""
+MES_15_CHOICE_2;"""Just give me the money..."""
+MES_15_DESCRIPTION;"Damn, how did you know about that!?
+Fine... I hereby declare you my official rival! Congratulations!
+As promised, here are my savings, 3000 BC. I will soon earn twice as more, don't worry.
+I am the best brewer after all."
+MES_15_TITLE;Brewer Challenge! (5)
+MES_16_CHOICE_1;"""Finally..."""
+MES_16_CHOICE_2;"""And you can never send me a message again."""
+MES_16_DESCRIPTION;"""What... Hey... What did you do to me?
+I feel really good right now... You know what? I think I am going to buy your beers... and give you 4000 BC..."""
+MES_16_TITLE;Brewer Challenge! (5)
+MES_17_DESCRIPTION;"HAHA! I knew I was going to win! 
+No one can beat the great Eston! Don't worry, if you need help you can come to me. I am always available for beginners!
+You know, when I was younger...
+
+[[The mail goes on and on again about Eston's childhood...]]"
+MES_17_TITLE;Brewer Challenge: I won!
+MES_18_CHOICE_1;"""OF COUR-. I mean, it's really hard for me but... yes."" [-1 brewer]"
+MES_18_CHOICE_2;"""Sorry, I need them too much right now."""
+MES_18_DESCRIPTION;"Hey, sorry to bother you but I am a ship captain and we have lost one of our crew member recently. Could you give us one of your brewers? We're willing to pay for them.
+
+OFFER : 
+1 brewer for 1000 BC"
+MES_18_TITLE;Trade proposition: Brewer
+MES_19_CHOICE_1;[Sell 1000 Beers for 2500 BeerCoins.]
+MES_19_CHOICE_2;[Sell 1500 Beers for 4000 BeerCoins.]
+MES_19_CHOICE_3;[Sell 3000 Beers for 7500 BeerCoins.]
+MES_19_DESCRIPTION;"Hello Sir. 
+Renowned merchant currently travelling between galaxies, I would like to fill in my beer stock with your beer. I have heard good things about it during my travels. Here are my offers, surely they will satisfy you:
+
+OFFERS:
+1000 Beers for 2500 BC
+1500 Beers for 4000 BC
+3000 Beers for 7500 BC"
+MES_19_TITLE;Trade proposition: Beer
+MES_20_CHOICE_1;"""I think you have the wrong mail..."""
+MES_20_CHOICE_2;"""Sure thing, but I forgot my credit card, can you send me some money?"""
+MES_20_DESCRIPTION;"Hey sweetie, don't forget to buy the new plasma screen before coming home tonight! "
+MES_20_TITLE;New plasma screen!
+MES_21_CHOICE_1;"""No problem."""
+MES_21_DESCRIPTION;Oh I'm so sorry! Thank you for telling me about my mistake!
+MES_21_TITLE;New plasma screen! (2)
+MES_22_CHOICE_1;[Add 300 BC to your account.]
+MES_22_DESCRIPTION;"You should pay more attention to your belongings dear!
+There you go, it should be enough for the model we talked about."
+MES_22_TITLE;New plasma screen! (2)
+MES_FROM;De:
+MES_NO_COMM_POST;Construis un poste de communication pour pouvoir répondre !
+MIS_01_DESCRIPTION_1;Livrer un peu de bière aux assoiffés
+MIS_01_DESCRIPTION_2;Aidez-les à devenir pompette avec votre remarquable bière !
+MIS_01_NAME;Petite livraison
+MIS_02_DESCRIPTION_1;Livrer beaucoup de bière aux assoiffés
+MIS_02_DESCRIPTION_2;Aidez-les à finir ivres morts avec votre remarquable bière !
+MIS_02_NAME;Grosse livraison
+MIS_03_DESCRIPTION_1;Détruire le stock de bière d'un concurrent
+MIS_03_NAME;Recherche & Destruction
+MIS_04_DESCRIPTION_1;Glisser un billet au président
+MIS_04_DESCRIPTION_2;Aider à financer une campagne pour gagner le soutien du président
+MIS_04_NAME;Soudoyer le président
+MIS_05_DESCRIPTION_1;Like a regular delivery, but riskier
+MIS_05_DESCRIPTION_2;Carrefull, this sector is NOT friendly
+MIS_05_NAME;Dangerous Delivery
+MIS_06_DESCRIPTION_1;This family said your beer tastes like old socks. Take your revenge !
+MIS_06_DESCRIPTION_2;Stealing isn't so bad after all...
+MIS_06_NAME;Steal Family
+MIS_07_DESCRIPTION_1;That'll teach them to compete with you!
+MIS_07_DESCRIPTION_2;Explosions are cool!
+MIS_07_NAME;Bomb a brewery
+MIS_08_DESCRIPTION_1;Expand you team, with some top of the notch engineer
+MIS_08_DESCRIPTION_2;Find someone dumb enough to work for you (and only be paid in beer)
+MIS_08_NAME;Recruit an expert
+MIS_09_DESCRIPTION_1;Convince an other family to trade informations
+MIS_09_DESCRIPTION_2;Sharing is caring ! Help other families !
+MIS_09_NAME;Trade recepies
+MIS_10_DESCRIPTION_1;Shower people with your beer and see how they worship you.
+MIS_10_NAME;Godlike Delivery
+MIS_11_DESCRIPTION_1;Some billboards, pop-ups online, the usual.
+MIS_11_NAME;Marketing
+MIS_12_DESCRIPTION_1;It's worth the money if more people can drink in peace.
+MIS_12_NAME;Hire defence forces
+MIS_13_DESCRIPTION_1;[Uses the Mind Manipultor] Fake laws here and there and voilà, more money!
+MIS_13_NAME;Influence President
+MIS_14_DESCRIPTION_1;You don't even need to train them.
+MIS_14_NAME;Kidnap rival's brewer
+MIS_15_DESCRIPTION_1;"Now that's a bad thing to do. "
+MIS_15_NAME;Arrangement with the Crime
+MIS_16_DESCRIPTION_1;[Uses the Mind Manipultor] Why influence one person when you can influence a whole crowd?
+MIS_16_NAME;Coup d'état
+OBJ_CATEGORY;Catégorie :
+OBJ_CATEGORY_1;Brasserie
+OBJ_CATEGORY_2;Défense
+OBJ_CATEGORY_3;Communication
+OBJ_CATEGORY_4;Général
+OBJ_CATEGORY_5;Editeur de salles
+OBJ_COST;Coût :
+OBJ_NAME_1;Fût
+OBJ_NAME_2;Detox
+OBJ_NAME_3;Cuve de brassage
+OBJ_NAME_4;Pare-feu
+OBJ_NAME_5;Antenne
+OBJ_NAME_6;Manipulateur d'esprit
+OBJ_NAME_7;Traducteur galactique
+OBJ_NAME_8;Poste de commande
+OBJ_NAME_9;Station de communication
+OBJ_RETURN;Retour
+SAIL_ACTION_TEXT_1;I'm so bored
+SAIL_ACTION_TEXT_10;All work and no play...
+SAIL_ACTION_TEXT_11;KIIIIIIIILL
+SAIL_ACTION_TEXT_12;Thanks for all the beer
+SAIL_ACTION_TEXT_13;Repairing
+SAIL_ACTION_TEXT_14;Booarf *hurps*
+SAIL_ACTION_TEXT_15;Sailor out
+SAIL_ACTION_TEXT_2;Nothing beats a cold one!
+SAIL_ACTION_TEXT_3;Doing things on stuff... Yay!
+SAIL_ACTION_TEXT_4;Building
+SAIL_ACTION_TEXT_5;Upgrading
+SAIL_ACTION_TEXT_6;DESTROYING!
+SAIL_ACTION_TEXT_7;I don't give a damn
+SAIL_ACTION_TEXT_8;No one says that about my moma!
+SAIL_ACTION_TEXT_9;Oh yeah? Well you asked for it
+SAIL_SPEC_1;Marrant
+SAIL_SPEC_2;Mesquin
+SAIL_SPEC_3;Chiant
+SECT_NAME_0;LaPiaule
+SECT_NAME_1;Vinrz
+SECT_NAME_10;Le Centre
+SECT_NAME_11;Trantor
+SECT_NAME_2;Vlunch
+SECT_NAME_3;Vlouf
+SECT_NAME_4;Gruntor
+SECT_NAME_5;Birnt
+SECT_NAME_6;Star's End
+SECT_NAME_7;Ileura
+SECT_NAME_8;La Comté
+SECT_NAME_9;Elmonin
+TUTO_1;Allez, c’est parti… Je suis responsable de ta formation. Ta Famille t’a confié une succursale, « youpi ». Mais ils ne t’ont pas dit qu’il y a une licence à payer pour la garder. Si tu ne peux pas payer, tu dégages. Oh, et bien sûr, le prix de la licence augmente avec le temps…
+TUTO_10;Clique sur l’icône “Construire”.
+TUTO_11;Maintenant clique sur l’icône de la catégorie “Brasserie”. Et dépêche, j’ai pas toute la journée.
+TUTO_12;Bon, sélectionne la cuve. Rha, je déteste ces saletés de tutos…
+TUTO_13;Maintenant, il faut la placer. Les cases sont rouges quand la place est insuffisante, et vertes quand la place est libre. Même toi, tu devrais comprendre ça… Quand tu es satisfait, clique et ton brasseur s’occupera du reste. Astuce : « R » pour tourner l’objet, « Echap » pour annuler.
+TUTO_14;Fantastique ! On dirait que tu es capable de suivre des consignes simples. Pas mal, pour un singe intelligent.Maintenant, plus qu’à attendre la fin de la construction.
+TUTO_15;Cette cuve est plutôt sophistiquée. Elle va produire de la bière en continu, sans intervention extérieure. C’est beau, la technologie !
+TUTO_16;Ok, c’est bien beau tout ça, mais tu ne peux pas tout régler avec de la bière. Crois-moi, beaucoup ont essayé… En vrai, tu vas avoir besoin d’argent. Et la meilleure manière d’en gagner est, étonnamment… de vendre ta bière !
+TUTO_17;« Mais dis-moi, O merveilleuse machine, je fais comment ? » Et bien, ne crains rien, être inférieur, les missions sont là pour ça, justement.
+TUTO_18;Les missions sont des contrats qui te permettent payer des mercenaires pour faire les choses à ta place. Livraisons de bière, campagnes publicitaires, magouilles d’espions, la totale !
+TUTO_19;Pour débloquer cet aspect crucial de la gestion de ta brasserie, tu dois construire un “Poste de commande”. Tu le trouveras dans la catégorie « Général » du panneau construction.
+TUTO_2;Au fait, c’est pour toi. Un peu d’argent, rien d’extraordinaire. La maison mère ne veut pas que tu te casses la figure en moins d’une minute…
+TUTO_20;Au cas où : tu dois sélectionner un brasseur, puis cliquer sur l’icône « Construction ». Le Poste de commande sera dans la catégorie « Général ».
+TUTO_21;Très bien ! Honnêtement, je ne pensais pas que tu irais aussi loin… Tu vois, le bouton “Poste de Commande” vient d’apparaître en haut de l’écran. Clique dessus.
+TUTO_22;Sur la carte, tu peux voir les autres secteurs de la galaxie. Ce sont tes rivaux, d’autres Familles de brasseurs.
+TUTO_23;Clique sur un des secteurs pour en savoir plus. Y en a pas un pour rattraper l’autre, de toute façon.
+TUTO_24;Comme tu vois, il y a différents types de missions, mais on va commencer par une simple Livraison de bière. Dès que tu as assez de stock, lance une « Petite Livraison ». Il suffit de cliquer sur la mission, puis valider. C’est vraiment pas si compliqué.
+TUTO_25;"Parfait, maintenant tes mercenaires vont finir le boulot. Enfin, c’est sans compter les bandits, les pièges, tout ça… Tout peut arriver.
+"
+TUTO_26;Chaque mission est différente. Beaucoup de choses peuvent jouer sur les missions : la distance du secteur, son hostilité, sa richesse, ta réputation, l’alignement des planètes… Ce genre de choses.
+TUTO_27;Les missions ça suffit pour l’instant. Ferme ce panneau, il me sort par les yeux.
+TUTO_28;Ah si, une dernière chose… La mission continue même quand le panneau est fermé. Je me ferai un « plaisir » de t’informer du résultat.
+TUTO_29;Ok, on a presque fini. Laisse-moi juste te parler des événements.
+TUTO_3;Avant tout, parlons des contrôles caméra. Maintiens le clic droit enfoncé en déplaçant ta souris pour bouger la caméra. Utilise la molette pour zoomer. Les touches “A” (“Q” sur clavier AZERTY) et “D” la font pivoter. Tu as déjà mal au crâne ? Moi aussi.
+TUTO_30;Comme tu le sais, il y a du monde dans cette galaxie (vu que vous vous reproduisez comme des lapins). Et de temps en temps, quelqu’un te contactera. Avec de bonnes nouvelles, ou des mauvaises… Mais tu recevras un message à chaque fois.
+TUTO_31;Tous les messages arrivent dans ta « Station de communication » en haut de l’écran. Pour pouvoir y répondre, tu dois construire un « Poste de communication ». Il est dans la catégorie « Divers ». Et si tu as déjà oublié comment construire un objet, je peux rien faire pour toi…
+TUTO_32;Puisque toi, moi, et mon programmeur quand il a écrit ça en avons ras le bol de ce tutoriel, je serais bref. Je suis sûr que tu sais te servir d’une boîte de réception. Il y a les messages importants… et les autres. Les importants s’ouvriront automatiquement, mais fais aussi attention aux normaux.
+TUTO_33;Pfiou, tu peux ENFIN t’occuper seul de ta brasserie !
+TUTO_34;Ah mince, attends, j’ai oublié un petit détail. Tes brasseurs sont tous de gros alcooliques. Et ça change pas mal la donne. Si tu ne les veux pas en coma éthylique ou à s’entretuer pour une pinte, tu devras garder un œil sur leur taux d’alcoolémie. Regarde la jauge autour de leur portrait. En jaune, c’est l’ivresse. En rouge, c’est le manque.
+TUTO_35;Voilà, tu as encore beaucoup à apprendre (sans blague). Mais mon programme de formation obligatoire s’arrête ici. Débrouille-toi maintenant, j’ai autre chose à faire…
+TUTO_36;Bonne change... ou non.
+TUTO_4;Bref, si tu veux t’en sortir, il va falloir BIEN m’écouter. Brasser de la bière n’est pas si facile, surtout avec l’équipe de bras-cassés que tu te coltines. En gros, il faut que tu construises deux objets : la cuve, pour brasser la bière, et le fut, pour la stocker.
+TUTO_5;Attends, je t’entends déjà me dire “Mais, crétin de robot, ça n’a pas du tout l’air compliqué !”… Faux ! Il y plein de trucs à prendre en compte. Je pourrais te faire la liste, mais ça gâcherait la surprise…
+TUTO_6;Comme je suis sûr que tu as déjà oublié la moitié de ce que je t’ai dit, commençons en douceur. Tu dois construire une cuve de brassage. Et je veux pas de ton bazar dans la salle de repos/pause.
+TUTO_7;Tous tes brasseurs sont ici, pour que tu puisses les sélectionner facilement.
+TUTO_8;Vas-y, clique sur un brasseur pour lui donner un ordre.
+TUTO_9;Ils peuvent tous construire, réparer, améliorer et détruire des objets. Surtout détruire. Vous aimez bien ça, vous les humains, casser des trucs.
+UI_FAM_PANE_HISTORY_HEADER;Difficulté
+UI_FAM_PANE_START;Commencer une partie
+UI_FAM_PANE_STATS_BEER;Stock de bière initial :
+UI_FAM_PANE_STATS_HEADER;Statistiques
+UI_FAM_PANE_STATS_MONEY;Argent initial :
+UI_FAM_PANE_STATS_REPUT;Réputation initiale :
+UI_MENU_OPTIONS;OPTIONS
+UI_MENU_PLAY;JOUER
+UI_MENU_QUIT;QUITTER
+UI_MES_PANE_SUB_TITLE;C'est ici que les gens t'envoient des messages à propos de trucs et d'autres.
+UI_MES_PANE_TITLE;Messages
+UI_MIS_PANE_STAT_COST;Coût :
+UI_MIS_PANE_STAT_DURATION;Durée :
+UI_MIS_PANE_STAT_REWARD;Récompense :
+UI_MIS_PANE_STAT_SECTOR;Secteur :
+UI_MIS_PANE_STAT_SUCCESS;Succès :
+UI_MIS_PANE_STATS_HOSTILITY;Hostilité :
+UI_MIS_PANE_STATS_REPUT;Argent / Bière :
+UI_MIS_PANE_STATS_WEALTH;Clients potentiels :
+UI_MIS_PANE_TITLE;Missions / Carte de la galaxie
+UI_MIS_PANE_TYPE_BTN_DELIVERY;Livraison
+UI_MIS_PANE_TYPE_BTN_DIPLOMACY;Diplomatie
+UI_MIS_PANE_TYPE_BTN_SABOTAGE;Sabotage
+UI_OBJ_PANE_LIFE;Vie
+UI_OBJ_PANE_UPGRADES;Améliorations :
+UI_OPTIONS_LANG;Langue
+UI_OPTIONS_LANG_1;Anglais
+UI_OPTIONS_LANG_2;Français
+UI_OPTIONS_SOUNDS;Sons
+UI_OPTIONS_TITLE;OPTIONS
+UI_PAUSE_PANE_OPTIONS;Options
+UI_PAUSE_PANE_QUIT;Quitter
+UI_PAUSE_PANE_RESUME;Reprendre
+UI_PAUSE_PANE_STATS;Statistiques
+UI_RANK_PANE_POS_1;Numéro 1, le meilleur numéro
+UI_RANK_PANE_POS_2;Si proche et pourtant si lointain
+UI_RANK_PANE_POS_3;Top 3 ! Yeeaaah !
+UI_RANK_PANE_POS_4;De mieux en mieux…
+UI_RANK_PANE_POS_5;Pas si mal
+UI_RANK_PANE_POS_6;Meh
+UI_RANK_PANE_POS_7;C'est moi ou ça pue ?
+UI_RANK_PANE_POS_8;Vous êtes le maillon faible, au revoir.
+UI_RANK_PANE_POS_HEADER;Concours de bière galactique
+UI_RANK_PANE_TITLE;Le panneau du concours de bière
+UI_SAIL_PANE_ALCHOL;Alcool :
+WORD_TIME_LEFT;Temps restant :

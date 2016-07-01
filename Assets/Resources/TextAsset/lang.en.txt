@@ -1,0 +1,7 @@
+[
+	["language", "English"],
+	["title", "My Prototype"],
+	["new", "New"],
+	["settings", "Settings"],
+	["exit", "Quit"]
+]
