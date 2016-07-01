@@ -1,0 +1,2299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &157172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481414}
+  - 114: {fileID: 11421262}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11421262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d8ddf7255502f43b4ba633657ba693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - name: MERCHANT_SMALL
+    probability: 10
+    antenaProbabilityEnhancement: 30
+    alienWrittenProbability: 25
+    peremptionTime: 20
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_01_TITLE
+    popUpSender: Mack.Qajeet@merchant.sky
+    popUpDescription: MES_01_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 0425b35ffd9f2c74392581cd01aaf879, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 100
+      text: MES_01_CHOICE_1
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 200
+      text: MES_01_CHOICE_2
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 500
+      text: MES_01_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 150
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 350
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 850
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: -100
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: beerNb
+        sign: +
+        amount: -200
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: beerNb
+        sign: +
+        amount: -500
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 0
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: startBeerNb
+        sign: '>'
+        amount: 0
+      eventName: 
+    noConditionNextEventName: 
+  - name: GALACTICBANK_HACK
+    probability: 1
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: moneyNb
+      sign: '>'
+      amount: 1000
+    hasPopUp: 1
+    popUpTitle: MES_02_TITLE
+    popUpSender: IMPORTANT@galacticbank.gal
+    popUpDescription: MES_02_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: a119bef19c143e14b873f14824c1cc69, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 100
+      text: MES_02_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -300
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: -1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -300
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 0
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: startBeerNb
+        sign: '>'
+        amount: 0
+      eventName: 
+    noConditionNextEventName: 
+  - name: POET_1
+    probability: 5
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 100
+    canHappendOnlyOnce: 1
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_03_TITLE
+    popUpSender: superPoetOfTheDead72@hatmail.gal
+    popUpDescription: MES_03_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6c2cb640915197946b70acef3dbb3522, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 50
+      text: MES_03_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_03_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -50
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: POET_2
+    probability: 0
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 100
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_04_TITLE
+    popUpSender: superPoetOfTheDead72@hatmail.gal
+    popUpDescription: MES_04_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6c2cb640915197946b70acef3dbb3522, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 50
+      text: MES_04_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -50
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: SPAM_BINARYOPTIONS
+    probability: 10
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 100
+    peremptionTime: 100
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_05_TITLE
+    popUpSender: superEnlarger@awesome.biz
+    popUpDescription: MES_05_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 92d7223ad5291c74b9f285963af4b0c8, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 50
+      text: MES_05_CHOICE_1
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      text: MES_05_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 50
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: RECRUIT_BREWER
+    probability: 5
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 50
+    peremptionTime: 100
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_06_TITLE
+    popUpSender: anotherbrewer@brew.gal
+    popUpDescription: MES_06_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 2aff8032a54566f4bae4e7de50e7df9c, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 50
+      text: MES_06_CHOICE_1
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      text: MES_06_CHOICE_2
+    doesSpawnSailor: 1
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: ASTEROIDS_1
+    probability: 2
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 30
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 0
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_07_TITLE
+    popUpSender: DANGER@yourgalaxy.gal
+    popUpDescription: MES_07_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 5a68beff16fa35c4c8bc19a8697cc3cf, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 1000
+      text: MES_07_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_07_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 0
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -1000
+    - condition:
+        field: score
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -1000
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 20
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: ASTEROIDS_2
+    noConditionNextEventName: 
+  - name: ASTEROIDS_2
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: moneyNb
+      sign: '>'
+      amount: 2000
+    hasPopUp: 1
+    popUpTitle: MES_08_TITLE
+    popUpSender: DANGER@yourgalaxy.gal
+    popUpDescription: MES_08_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 5a68beff16fa35c4c8bc19a8697cc3cf, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 50
+      text: MES_02_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -500
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: BADMOUTH
+    probability: 5
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 500
+    hasPopUp: 1
+    popUpTitle: MES_09_TITLE
+    popUpSender: Matt.Jones@brew.gal
+    popUpDescription: MES_09_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 22b929ff90156a743840995f2bab8718, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_09_CHOICE_1
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 100
+      text: MES_09_CHOICE_2
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 250
+      text: MES_09_CHOICE_3
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_09_CHOICE_4
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: -10
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -100
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: moneyNb
+        sign: +
+        amount: -250
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: reputation
+        sign: +
+        amount: 10
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 3
+      reward:
+        field: reputation
+        sign: +
+        amount: -20
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: STARLET
+    probability: 10
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 100
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_10_TITLE
+    popUpSender: SweetEmy@stars.sky
+    popUpDescription: MES_10_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 5a68beff16fa35c4c8bc19a8697cc3cf, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 400
+      text: MES_10_CHOICE_1
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 100
+      text: MES_10_CHOICE_2
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_10_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: 10
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: -400
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: reputation
+        sign: +
+        amount: 20
+    - condition:
+        field: eventChoice
+        sign: '>'
+        amount: 1
+      reward:
+        field: beerNb
+        sign: +
+        amount: -100
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 3
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POET_2
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_1
+    probability: 50
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100000
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 2500
+    hasPopUp: 1
+    popUpTitle: MES_11_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_11_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_11_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_11_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_2
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 30
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 0
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_12_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_12_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_12_CHOICE_1
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_12_CHOICE_2
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_12_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: -1000
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: beerNb
+        sign: +
+        amount: -1000
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_3
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_3
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      eventName: RIVAL_DEFI_LOSE
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: -1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_3
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 0
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_13_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_13_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 4000
+      text: MES_13_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_13_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_4
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: -1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_4
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100000
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 0
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_14_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_14_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: nbOfMindManipulatorConstructed
+        sign: '>'
+        amount: 0
+      text: MES_14_CHOICE_1
+    - condition:
+        field: nbOfMindManipulatorConstructed
+        sign: '>'
+        amount: 0
+      text: MES_14_CHOICE_2
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_14_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_5a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_5b
+    - condition:
+        field: score
+        sign: '>'
+        amount: 2
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_5a
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100000
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_15_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_15_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_15_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_15_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 3000
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_5b
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100000
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_16_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_16_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_16_CHOICE_1
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      text: MES_16_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 4000
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: RIVAL_DEFI_LOSE
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 100000
+    canHappendOnlyOnce: 0
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_17_TITLE
+    popUpSender: Eston.Blue@brew.gal
+    popUpDescription: MES_17_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 6ec8706d520aee0439026a066c3eca2f, type: 3}
+    hasChoices: 0
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices: []
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: 1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: MERCHANT_WANTTOBUY_BREWER
+    probability: 2
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 90
+    peremptionTime: 30
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_18_TITLE
+    popUpSender: Lily.Qajeet@merchant.sky
+    popUpDescription: MES_18_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: d83609f74eaf0a64e9e450b56c4b1c4b, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      text: MES_18_CHOICE_1
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      text: MES_18_CHOICE_2
+    doesSpawnSailor: 1
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: MERCHANT_BIG
+    probability: 1
+    antenaProbabilityEnhancement: 30
+    alienWrittenProbability: 75
+    peremptionTime: 30
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_19_TITLE
+    popUpSender: Han.Qajeet@merchant.sky
+    popUpDescription: MES_19_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 0425b35ffd9f2c74392581cd01aaf879, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_19_CHOICE_1
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1500
+      text: MES_19_CHOICE_2
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 3000
+      text: MES_19_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 1
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2500
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 4000
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 7500
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: -1000
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      reward:
+        field: score
+        sign: +
+        amount: -1500
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      reward:
+        field: score
+        sign: +
+        amount: -3000
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: RIVAL_DEFI_2
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: RIVAL_DEFI_LOSE
+    noConditionNextEventName: 
+  - name: SPAM_WRONGADRESS_1
+    probability: 10
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 40
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_20_TITLE
+    popUpSender: amyloo@qmail.sky
+    popUpDescription: MES_20_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 92d7223ad5291c74b9f285963af4b0c8, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_20_CHOICE_1
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1500
+      text: MES_20_CHOICE_2
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 10
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2b
+    noConditionNextEventName: 
+  - name: SPAM_WRONGADRESS_2a
+    probability: 0
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 45
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_21_TITLE
+    popUpSender: amyloo@qmail.sky
+    popUpDescription: MES_21_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 92d7223ad5291c74b9f285963af4b0c8, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_21_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 100
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: SPAM_WRONGADRESS_2b
+    probability: 0
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 45
+    canHappendOnlyOnce: 0
+    isModal: 0
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 0
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_22_TITLE
+    popUpSender: amyloo@qmail.sky
+    popUpDescription: MES_22_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 92d7223ad5291c74b9f285963af4b0c8, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_22_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 300
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: ROBOT_HalfYear
+    probability: 100
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: gameTime
+      sign: '>'
+      amount: 360
+    hasPopUp: 1
+    popUpTitle: MES_23_TITLE
+    popUpSender: barman-robot144@brew.gal
+    popUpDescription: MES_23_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 5a68beff16fa35c4c8bc19a8697cc3cf, type: 3}
+    hasChoices: 0
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_22_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: ROBOT_FullYear
+    probability: 100
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: gameTime
+      sign: '>'
+      amount: 720
+    hasPopUp: 1
+    popUpTitle: MES_24_TITLE
+    popUpSender: barman-robot144@brew.gal
+    popUpDescription: MES_24_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 5a68beff16fa35c4c8bc19a8697cc3cf, type: 3}
+    hasChoices: 0
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: beerNb
+        sign: '>'
+        amount: 1000
+      text: MES_22_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: POLITICS_1
+    probability: 50
+    antenaProbabilityEnhancement: 10
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 1
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 3000
+    hasPopUp: 1
+    popUpTitle: MES_25_TITLE
+    popUpSender: Mark.Russel@politics.gal
+    popUpDescription: MES_25_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 22b929ff90156a743840995f2bab8718, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 2500
+      text: MES_25_CHOICE_1
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 1000
+      text: MES_25_CHOICE_2
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 1000
+      text: MES_25_CHOICE_3
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 1
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 25
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: POLITICS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: POLITICS_2b
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 2
+      eventName: POLITICS_2c
+    noConditionNextEventName: 
+  - name: POLITICS_2a
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 500
+    hasPopUp: 1
+    popUpTitle: MES_26_TITLE
+    popUpSender: Mark.Russel@politics.gal
+    popUpDescription: MES_26_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 22b929ff90156a743840995f2bab8718, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 1
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 2500
+      text: MES_26_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 3500
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: POLITICS_2b
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 0
+    hasPopUp: 1
+    popUpTitle: MES_27_TITLE
+    popUpSender: Mark.Russel@politics.gal
+    popUpDescription: MES_27_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 22b929ff90156a743840995f2bab8718, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 2500
+      text: MES_27_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards: []
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  - name: POLITICS_2c
+    probability: 0
+    antenaProbabilityEnhancement: 0
+    alienWrittenProbability: 0
+    peremptionTime: 60
+    canHappendOnlyOnce: 1
+    isModal: 1
+    isKillable: 1
+    hasSpawningCondition: 0
+    spawnConditions:
+    - field: score
+      sign: '>'
+      amount: 500
+    hasPopUp: 1
+    popUpTitle: MES_28_TITLE
+    popUpSender: Mark.Russel@politics.gal
+    popUpDescription: MES_28_DESCRIPTION
+    popUpIcon: {fileID: 21300000, guid: 22b929ff90156a743840995f2bab8718, type: 3}
+    hasChoices: 1
+    isChoicesConditional: 0
+    isLockedChoicesHidden: 0
+    choices:
+    - condition:
+        field: moneyNb
+        sign: '>'
+        amount: 2500
+      text: MES_28_CHOICE_1
+    doesSpawnSailor: 0
+    isSailorSpawnConditional: 1
+    sailorsToSpawn:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      nb: -1
+    doesSpawnPrefab: 0
+    isPrefabSpawnConditional: 0
+    prefabsSpawn:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      prefab: {fileID: 0}
+      position: {x: 0, y: 0, z: 0}
+    hasRewardCondition: 0
+    rewards:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 1500
+    doesSpawnAnotherEvent: 0
+    doesEventBypassConditions: 0
+    eventSpawnDelay: 2
+    isEventSpawnConditional: 1
+    nextEvent:
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 0
+      eventName: SPAM_WRONGADRESS_2a
+    - condition:
+        field: eventChoice
+        sign: =
+        amount: 1
+      eventName: SPAM_WRONGADRESS_2a
+    noConditionNextEventName: 
+  eventsCheckInterval: 15
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 157172}
+  m_IsPrefabParent: 1

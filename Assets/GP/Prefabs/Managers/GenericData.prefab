@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &194882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 438066}
+  - 114: {fileID: 11418674}
+  m_Layer: 0
+  m_Name: GenericData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &438066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11418674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5199fdf864f03a41b02b1f66de1516d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameDuration: 100000
+  buildingsCategories:
+  - name: OBJ_CATEGORY_1
+    icon: {fileID: 21300000, guid: 23d2b00f0a7d29a46ab433bb61c23c7c, type: 3}
+    iconHover: {fileID: 21300000, guid: ba4ed6a28415a384b929363d4ec76a39, type: 3}
+    buildings:
+    - name: OBJ_NAME_1
+      icon: {fileID: 21300000, guid: d0879f1f65e209348ac5366fd335b0b3, type: 3}
+      hoverIcon: {fileID: 21300000, guid: 211e32b1068be1c4789382cc39237b81, type: 3}
+      isUnlocked: 1
+      moneyCost: 300
+      prefab: {fileID: 189646, guid: 4a9d4ce5f8d71194b9324f8feb02f9c2, type: 2}
+    - name: OBJ_NAME_2
+      icon: {fileID: 21300000, guid: 3bf9345f3417eb441a92fc5066d5d67e, type: 3}
+      hoverIcon: {fileID: 21300000, guid: 8fcb48ef36a51de4ab7eae172185a629, type: 3}
+      isUnlocked: 1
+      moneyCost: 700
+      prefab: {fileID: 149522, guid: 981fe833e009d654e955d82a156ca652, type: 2}
+    - name: OBJ_NAME_3
+      icon: {fileID: 21300000, guid: 4ce0e6a4837e36f44bfd9b4014e7900d, type: 3}
+      hoverIcon: {fileID: 21300000, guid: 67b3d0c0fb1260c43b6cf2094c9333cc, type: 3}
+      isUnlocked: 1
+      moneyCost: 400
+      prefab: {fileID: 186658, guid: 2d7c0359399a02f41bf1f6971c03ab8f, type: 2}
+    onClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11451582, guid: 57db777457864184d8e9253682e6fe39, type: 2}
+          m_MethodName: ShowCategory
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: OBJ_CATEGORY_3
+    icon: {fileID: 21300000, guid: eba6187575cb2284a8b31700d62e4aae, type: 3}
+    iconHover: {fileID: 21300000, guid: d27d4d04fad253f47832e8c909af8e33, type: 3}
+    buildings:
+    - name: OBJ_NAME_5
+      icon: {fileID: 21300000, guid: 3556c42f72513cd41b1d963b44543e65, type: 3}
+      hoverIcon: {fileID: 21300000, guid: ca12f40558a75ec4abd945de38f731d4, type: 3}
+      isUnlocked: 1
+      moneyCost: 500
+      prefab: {fileID: 136964, guid: ab1c0ac65a5a313429b40505757495fa, type: 2}
+    - name: OBJ_NAME_6
+      icon: {fileID: 21300000, guid: 50fdb934a46734249a39f16254513b1f, type: 3}
+      hoverIcon: {fileID: 21300000, guid: 3b9f2c94faa1d2345922b9701d18e667, type: 3}
+      isUnlocked: 1
+      moneyCost: 4000
+      prefab: {fileID: 123382, guid: b04b7ad885546b445b0b133e8a4ab682, type: 2}
+    - name: OBJ_NAME_7
+      icon: {fileID: 21300000, guid: a26373383fee53241bcca76e565d2c52, type: 3}
+      hoverIcon: {fileID: 21300000, guid: c69c2b2393ec5fc438e4f610a7e66b04, type: 3}
+      isUnlocked: 1
+      moneyCost: 1500
+      prefab: {fileID: 187814, guid: 7936eeb6d9e9295459ad09c111ed8ab1, type: 2}
+    onClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11451582, guid: 57db777457864184d8e9253682e6fe39, type: 2}
+          m_MethodName: ShowCategory
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: OBJ_CATEGORY_4
+    icon: {fileID: 21300000, guid: afebba5f6210de6408770e0e52a4c81e, type: 3}
+    iconHover: {fileID: 21300000, guid: 71b09d823a497d54784d0e6509270d35, type: 3}
+    buildings:
+    - name: OBJ_NAME_8
+      icon: {fileID: 21300000, guid: c364c168e35167e448f7c6bb9a6f07fa, type: 3}
+      hoverIcon: {fileID: 21300000, guid: 32475d0c82ea8e54dba801295a90fe5c, type: 3}
+      isUnlocked: 1
+      moneyCost: 800
+      prefab: {fileID: 151360, guid: f5001eeb884bbce489aac55101274934, type: 2}
+    - name: Generator
+      icon: {fileID: 21300000, guid: aaaa270da21697e4681c2474b75bc9b1, type: 3}
+      hoverIcon: {fileID: 0}
+      isUnlocked: 0
+      moneyCost: 800
+      prefab: {fileID: 0}
+    - name: ResearchPost
+      icon: {fileID: 21300000, guid: 6b6bfce24d78e8044a359700e1acc015, type: 3}
+      hoverIcon: {fileID: 0}
+      isUnlocked: 0
+      moneyCost: 1000
+      prefab: {fileID: 0}
+    - name: OBJ_NAME_9
+      icon: {fileID: 21300000, guid: d53146c6995add1469ed3ed23aeb805a, type: 3}
+      hoverIcon: {fileID: 21300000, guid: cb0de5053290d6e469524aa95d5e50f9, type: 3}
+      isUnlocked: 1
+      moneyCost: 700
+      prefab: {fileID: 110324, guid: 484e0310606580f49b8064e5dce9486a, type: 2}
+    onClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11451582, guid: 57db777457864184d8e9253682e6fe39, type: 2}
+          m_MethodName: ShowCategory
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  infoMessageStyles:
+  - type: 0
+    backgroundSprite: {fileID: 21300000, guid: 1d225b7575a8b2441b71c0793919fb71, type: 3}
+    fontSize: 16
+    fontColor: {r: 0, g: .83448267, b: 1, a: 1}
+    textHeader: INFO_HEADER_1
+    soundName: Alert 1
+  - type: 3
+    backgroundSprite: {fileID: 21300000, guid: 1d225b7575a8b2441b71c0793919fb71, type: 3}
+    fontSize: 16
+    fontColor: {r: 0, g: .83448267, b: 1, a: 1}
+    textHeader: INFO_HEADER_1
+    soundName: Message Notification
+  - type: 1
+    backgroundSprite: {fileID: 21300000, guid: 977485611b456e643aa590a7ea83f76f, type: 3}
+    fontSize: 16
+    fontColor: {r: .0268166345, g: .911764681, b: .252631038, a: 1}
+    textHeader: INFO_HEADER_2
+    soundName: Alert 2
+  - type: 2
+    backgroundSprite: {fileID: 21300000, guid: 4c99a0a9fe30c8a498688c8f5e1f916b, type: 3}
+    fontSize: 16
+    fontColor: {r: .985294104, g: .0869377404, b: .0869377404, a: 1}
+    textHeader: INFO_HEADER_3
+    soundName: Alert 4
+  infoMessages:
+  - name: NewEvent
+    type: 3
+    text: INFO_TEXT_1
+  - name: MissionSuccess
+    type: 1
+    text: INFO_TEXT_2
+  - name: DeliveryMissionFail
+    type: 2
+    text: INFO_TEXT_3
+  - name: DiplomacyMissionFail
+    type: 2
+    text: INFO_TEXT_4
+  - name: SabotageMissionFail
+    type: 2
+    text: INFO_TEXT_5
+  - name: NotEnoughMoney
+    type: 2
+    text: INFO_TEXT_6
+  - name: ReseachFinished
+    type: 1
+    text: INFO_TEXT_7
+  - name: SailorDied
+    type: 2
+    text: INFO_TEXT_8
+  - name: LowBeerStock
+    type: 2
+    text: INFO_TEXT_9
+  - name: MaxUpgradeNb
+    type: 0
+    text: INFO_TEXT_10
+  - name: FurnitureFullLife
+    type: 0
+    text: INFO_TEXT_11
+  - name: FurnitureUsed
+    type: 0
+    text: INFO_TEXT_12
+  - name: SailorQuit
+    type: 2
+    text: INFO_TEXT_13
+  - name: LicencePayed
+    type: 0
+    text: INFO_TEXT_14
+  - name: LowMoney
+    type: 2
+    text: INFO_TEXT_15
+  mercenaryTeam:
+    defenseSkill: 0
+    negociationSkill: 0
+    sneakSkill: 0
+  isControlsBlocked: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 194882}
+  m_IsPrefabParent: 1

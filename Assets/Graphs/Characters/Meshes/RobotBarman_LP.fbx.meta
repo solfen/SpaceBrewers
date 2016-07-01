@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: af830499d5c18cb49ba259e2e130ee91
+timeCreated: 1462109793
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Avant_bras
+    100002: Avant_bras 1
+    100004: Avant_bras 2
+    100006: Avant_bras 3
+    100008: Bassin
+    100010: Bras
+    100012: Bras 1
+    100014: Bras 2
+    100016: Bras 3
+    100018: Bras1
+    100020: Bras2
+    100022: Bras3
+    100024: Bras4
+    100026: Buste
+    100028: Colonne
+    100030: Coude
+    100032: Coude 1
+    100034: Coude 2
+    100036: Coude 3
+    100038: Coude1
+    100040: Coude1 1
+    100042: Croix
+    100044: Disque
+    100046: Epaule
+    100048: Epaule 1
+    100050: Epaule 2
+    100052: Epaule 3
+    100054: Jambe
+    100056: Main
+    100058: Main 1
+    100060: Main 2
+    100062: Main 3
+    100064: NoeudPap
+    100066: pCube10
+    100068: pCube10 1
+    100070: pCube10 2
+    100072: pCube10 3
+    100074: pCube11
+    100076: pCube11 1
+    100078: pCube11 2
+    100080: pCube11 3
+    100082: pCube3
+    100084: pCube3 1
+    100086: pCube3 2
+    100088: pCube3 3
+    100090: pCube4
+    100092: pCube4 1
+    100094: pCube4 2
+    100096: pCube4 3
+    100098: pCube5
+    100100: pCube5 1
+    100102: pCube5 2
+    100104: pCube5 3
+    100106: pCube6
+    100108: pCube6 1
+    100110: pCube6 2
+    100112: pCube6 3
+    100114: pCube7
+    100116: pCube7 1
+    100118: pCube7 2
+    100120: pCube7 3
+    100122: pCube8
+    100124: pCube8 1
+    100126: pCube8 2
+    100128: pCube8 3
+    100130: pCube9
+    100132: pCube9 1
+    100134: pCube9 2
+    100136: pCube9 3
+    100138: Pied
+    100140: Pied1
+    100142: Pied2
+    100144: Pied3
+    100146: Pivot
+    100148: Poignet
+    100150: Poignet 1
+    100152: Poignet 2
+    100154: Poignet 3
+    100156: //RootNode
+    100158: Sphere
+    100160: Sphere_Pied
+    100162: Sphere_Pied1
+    100164: Sphere_Pied2
+    100166: Sphere_Pied3
+    100168: Tete
+    100170: Visage
+    400000: Avant_bras
+    400002: Avant_bras 1
+    400004: Avant_bras 2
+    400006: Avant_bras 3
+    400008: Bassin
+    400010: Bras
+    400012: Bras 1
+    400014: Bras 2
+    400016: Bras 3
+    400018: Bras1
+    400020: Bras2
+    400022: Bras3
+    400024: Bras4
+    400026: Buste
+    400028: Colonne
+    400030: Coude
+    400032: Coude 1
+    400034: Coude 2
+    400036: Coude 3
+    400038: Coude1
+    400040: Coude1 1
+    400042: Croix
+    400044: Disque
+    400046: Epaule
+    400048: Epaule 1
+    400050: Epaule 2
+    400052: Epaule 3
+    400054: Jambe
+    400056: Main
+    400058: Main 1
+    400060: Main 2
+    400062: Main 3
+    400064: NoeudPap
+    400066: pCube10
+    400068: pCube10 1
+    400070: pCube10 2
+    400072: pCube10 3
+    400074: pCube11
+    400076: pCube11 1
+    400078: pCube11 2
+    400080: pCube11 3
+    400082: pCube3
+    400084: pCube3 1
+    400086: pCube3 2
+    400088: pCube3 3
+    400090: pCube4
+    400092: pCube4 1
+    400094: pCube4 2
+    400096: pCube4 3
+    400098: pCube5
+    400100: pCube5 1
+    400102: pCube5 2
+    400104: pCube5 3
+    400106: pCube6
+    400108: pCube6 1
+    400110: pCube6 2
+    400112: pCube6 3
+    400114: pCube7
+    400116: pCube7 1
+    400118: pCube7 2
+    400120: pCube7 3
+    400122: pCube8
+    400124: pCube8 1
+    400126: pCube8 2
+    400128: pCube8 3
+    400130: pCube9
+    400132: pCube9 1
+    400134: pCube9 2
+    400136: pCube9 3
+    400138: Pied
+    400140: Pied1
+    400142: Pied2
+    400144: Pied3
+    400146: Pivot
+    400148: Poignet
+    400150: Poignet 1
+    400152: Poignet 2
+    400154: Poignet 3
+    400156: //RootNode
+    400158: Sphere
+    400160: Sphere_Pied
+    400162: Sphere_Pied1
+    400164: Sphere_Pied2
+    400166: Sphere_Pied3
+    400168: Tete
+    400170: Visage
+    2300000: Avant_bras
+    2300002: Avant_bras 1
+    2300004: Avant_bras 2
+    2300006: Avant_bras 3
+    2300008: Bassin
+    2300010: Bras
+    2300012: Bras 1
+    2300014: Bras 2
+    2300016: Bras 3
+    2300018: Buste
+    2300020: Colonne
+    2300022: Coude
+    2300024: Coude 1
+    2300026: Coude 2
+    2300028: Coude 3
+    2300030: Coude1
+    2300032: Coude1 1
+    2300034: Croix
+    2300036: Disque
+    2300038: Epaule
+    2300040: Epaule 1
+    2300042: Epaule 2
+    2300044: Epaule 3
+    2300046: Jambe
+    2300048: Main
+    2300050: Main 1
+    2300052: Main 2
+    2300054: Main 3
+    2300056: NoeudPap
+    2300058: pCube10
+    2300060: pCube10 1
+    2300062: pCube10 2
+    2300064: pCube10 3
+    2300066: pCube11
+    2300068: pCube11 1
+    2300070: pCube11 2
+    2300072: pCube11 3
+    2300074: pCube3
+    2300076: pCube3 1
+    2300078: pCube3 2
+    2300080: pCube3 3
+    2300082: pCube4
+    2300084: pCube4 1
+    2300086: pCube4 2
+    2300088: pCube4 3
+    2300090: pCube5
+    2300092: pCube5 1
+    2300094: pCube5 2
+    2300096: pCube5 3
+    2300098: pCube6
+    2300100: pCube6 1
+    2300102: pCube6 2
+    2300104: pCube6 3
+    2300106: pCube7
+    2300108: pCube7 1
+    2300110: pCube7 2
+    2300112: pCube7 3
+    2300114: pCube8
+    2300116: pCube8 1
+    2300118: pCube8 2
+    2300120: pCube8 3
+    2300122: pCube9
+    2300124: pCube9 1
+    2300126: pCube9 2
+    2300128: pCube9 3
+    2300130: Pied
+    2300132: Pied1
+    2300134: Pied2
+    2300136: Pied3
+    2300138: Pivot
+    2300140: Poignet
+    2300142: Poignet 1
+    2300144: Poignet 2
+    2300146: Poignet 3
+    2300148: Sphere
+    2300150: Sphere_Pied
+    2300152: Sphere_Pied1
+    2300154: Sphere_Pied2
+    2300156: Sphere_Pied3
+    2300158: Tete
+    2300160: Visage
+    3300000: Avant_bras
+    3300002: Avant_bras 1
+    3300004: Avant_bras 2
+    3300006: Avant_bras 3
+    3300008: Bassin
+    3300010: Bras
+    3300012: Bras 1
+    3300014: Bras 2
+    3300016: Bras 3
+    3300018: Buste
+    3300020: Colonne
+    3300022: Coude
+    3300024: Coude 1
+    3300026: Coude 2
+    3300028: Coude 3
+    3300030: Coude1
+    3300032: Coude1 1
+    3300034: Croix
+    3300036: Disque
+    3300038: Epaule
+    3300040: Epaule 1
+    3300042: Epaule 2
+    3300044: Epaule 3
+    3300046: Jambe
+    3300048: Main
+    3300050: Main 1
+    3300052: Main 2
+    3300054: Main 3
+    3300056: NoeudPap
+    3300058: pCube10
+    3300060: pCube10 1
+    3300062: pCube10 2
+    3300064: pCube10 3
+    3300066: pCube11
+    3300068: pCube11 1
+    3300070: pCube11 2
+    3300072: pCube11 3
+    3300074: pCube3
+    3300076: pCube3 1
+    3300078: pCube3 2
+    3300080: pCube3 3
+    3300082: pCube4
+    3300084: pCube4 1
+    3300086: pCube4 2
+    3300088: pCube4 3
+    3300090: pCube5
+    3300092: pCube5 1
+    3300094: pCube5 2
+    3300096: pCube5 3
+    3300098: pCube6
+    3300100: pCube6 1
+    3300102: pCube6 2
+    3300104: pCube6 3
+    3300106: pCube7
+    3300108: pCube7 1
+    3300110: pCube7 2
+    3300112: pCube7 3
+    3300114: pCube8
+    3300116: pCube8 1
+    3300118: pCube8 2
+    3300120: pCube8 3
+    3300122: pCube9
+    3300124: pCube9 1
+    3300126: pCube9 2
+    3300128: pCube9 3
+    3300130: Pied
+    3300132: Pied1
+    3300134: Pied2
+    3300136: Pied3
+    3300138: Pivot
+    3300140: Poignet
+    3300142: Poignet 1
+    3300144: Poignet 2
+    3300146: Poignet 3
+    3300148: Sphere
+    3300150: Sphere_Pied
+    3300152: Sphere_Pied1
+    3300154: Sphere_Pied2
+    3300156: Sphere_Pied3
+    3300158: Tete
+    3300160: Visage
+    4300000: Visage
+    4300002: Tete
+    4300004: Buste
+    4300006: Croix
+    4300008: Disque
+    4300010: Sphere
+    4300012: Jambe
+    4300014: Pivot
+    4300016: Colonne
+    4300018: NoeudPap
+    4300020: Pied
+    4300022: Sphere_Pied
+    4300024: Bassin
+    4300026: Pied1
+    4300028: Sphere_Pied1
+    4300030: Pied2
+    4300032: Sphere_Pied2
+    4300034: Pied3
+    4300036: Sphere_Pied3
+    4300038: Epaule
+    4300040: Bras
+    4300042: Avant_bras
+    4300044: Coude
+    4300046: Main
+    4300048: pCube3
+    4300050: pCube4
+    4300052: pCube5
+    4300054: pCube6
+    4300056: pCube7
+    4300058: pCube8
+    4300060: pCube9
+    4300062: pCube10
+    4300064: pCube11
+    4300066: Poignet
+    4300068: Epaule
+    4300070: Bras
+    4300072: Avant_bras
+    4300074: Coude
+    4300076: Main
+    4300078: pCube3
+    4300080: pCube4
+    4300082: pCube5
+    4300084: pCube6
+    4300086: pCube7
+    4300088: pCube8
+    4300090: pCube9
+    4300092: pCube10
+    4300094: pCube11
+    4300096: Poignet
+    4300098: Epaule
+    4300100: Bras
+    4300102: Avant_bras
+    4300104: Coude
+    4300106: Main
+    4300108: pCube3
+    4300110: pCube4
+    4300112: pCube5
+    4300114: pCube6
+    4300116: pCube7
+    4300118: pCube8
+    4300120: pCube9
+    4300122: pCube10
+    4300124: pCube11
+    4300126: Poignet
+    4300128: Coude1
+    4300130: Epaule
+    4300132: Bras
+    4300134: Avant_bras
+    4300136: Coude
+    4300138: Main
+    4300140: pCube3
+    4300142: pCube4
+    4300144: pCube5
+    4300146: pCube6
+    4300148: pCube7
+    4300150: pCube8
+    4300152: pCube9
+    4300154: pCube10
+    4300156: pCube11
+    4300158: Poignet
+    4300160: Coude1
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

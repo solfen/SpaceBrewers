@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 446246}
+  - 114: {fileID: 11477814}
+  m_Layer: 0
+  m_Name: SailorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11477814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13774608e919d1e4ba917b5245e3560b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSoundProba: 50
+  drunknessRateMultiplier: 1
+  startSailorNb: 3
+  sailorsPrefabs:
+  - {fileID: 142230, guid: 0977e03896a9ce5458d2b95e17661b9f, type: 2}
+  sailorsList:
+  - {fileID: 0}
+  sailorsConfig:
+    ordersPriorityList:
+    - type: 0
+      priority: 0
+    - type: 1
+      priority: 1
+    - type: 2
+      priority: 2
+    - type: 3
+      priority: 2
+    - type: 4
+      priority: 2
+    - type: 5
+      priority: 2
+    - type: 6
+      priority: 2
+    - type: 7
+      priority: 3
+    - type: 8
+      priority: 3
+    - type: 9
+      priority: 4
+    - type: 12
+      priority: 4
+    - type: 11
+      priority: 4
+    - type: 10
+      priority: 5
+    - type: 15
+      priority: 4
+    - type: 14
+      priority: 6
+    - type: 13
+      priority: 9001
+    - type: 16
+      priority: 4
+    sailorEvents:
+    - orderType: 1
+      minDrunkness: -100
+      maxDrunkness: 100
+      probability: 99
+      cantHappendWhileDrinking: 0
+    - orderType: 9
+      minDrunkness: 35
+      maxDrunkness: 100
+      probability: 2
+      cantHappendWhileDrinking: 0
+    - orderType: 14
+      minDrunkness: 75
+      maxDrunkness: 100
+      probability: 10
+      cantHappendWhileDrinking: 0
+    - orderType: 8
+      minDrunkness: -100
+      maxDrunkness: -25
+      probability: 5
+      cantHappendWhileDrinking: 1
+    - orderType: 11
+      minDrunkness: 60
+      maxDrunkness: 100
+      probability: 10
+      cantHappendWhileDrinking: 1
+    - orderType: 11
+      minDrunkness: -100
+      maxDrunkness: -50
+      probability: 10
+      cantHappendWhileDrinking: 1
+    - orderType: 12
+      minDrunkness: -100
+      maxDrunkness: -75
+      probability: 5
+      cantHappendWhileDrinking: 1
+    - orderType: 13
+      minDrunkness: 99
+      maxDrunkness: 100
+      probability: 1
+      cantHappendWhileDrinking: 0
+    eventCheckerInterval: 1
+    actionMessageTextsList:
+    - type: 0
+      texts:
+      - SAIL_ACTION_TEXT_1
+    - type: 1
+      texts:
+      - SAIL_ACTION_TEXT_2
+    - type: 2
+      texts:
+      - SAIL_ACTION_TEXT_3
+    - type: 3
+      texts:
+      - SAIL_ACTION_TEXT_4
+    - type: 4
+      texts:
+      - SAIL_ACTION_TEXT_5
+    - type: 5
+      texts:
+      - SAIL_ACTION_TEXT_6
+    - type: 6
+      texts:
+      - SAIL_ACTION_TEXT_13
+    - type: 7
+      texts:
+      - Nope
+    - type: 8
+      texts:
+      - SAIL_ACTION_TEXT_7
+    - type: 9
+      texts:
+      - SAIL_ACTION_TEXT_8
+    - type: 10
+      texts:
+      - SAIL_ACTION_TEXT_9
+    - type: 11
+      texts:
+      - SAIL_ACTION_TEXT_10
+    - type: 12
+      texts:
+      - SAIL_ACTION_TEXT_11
+    - type: 13
+      texts:
+      - SAIL_ACTION_TEXT_12
+    - type: 14
+      texts:
+      - SAIL_ACTION_TEXT_13
+    - type: 15
+      texts:
+      - SAIL_ACTION_TEXT_14
+    - type: 16
+      texts:
+      - SAIL_ACTION_TEXT_15
+    sailorNames:
+    - Jet
+    - Spike
+    - Ein
+    - Edward
+    - Faye
+    - Kassad
+    - Sol
+    - Keats
+    - Silenus
+    - Brawne
+    - Aspic
+    - Masteen
+    sailorColorFeedbacks:
+    - minDrunkness: -101
+      maxDrunkness: -75
+      color: {r: 1, g: 0, b: 0, a: 1}
+      flashSpeed: 2
+    - minDrunkness: -75
+      maxDrunkness: -50
+      color: {r: 1, g: 0.30147058, b: 0.30147058, a: 1}
+      flashSpeed: 1
+    - minDrunkness: 75
+      maxDrunkness: 101
+      color: {r: 1, g: 0.80689657, b: 0, a: 1}
+      flashSpeed: 2
+    barRefilingStations: []
+    barWanderPoints: []
+    spawnPoints: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[5].orderType
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[5].maxDrunkness
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[5].probability
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[6].orderType
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[6].minDrunkness
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[6].maxDrunkness
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[6].probability
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[6].cantHappendWhileDrinking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[7].orderType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[7].minDrunkness
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[7].maxDrunkness
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[7].probability
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[8].orderType
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[8].minDrunkness
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[8].maxDrunkness
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[8].probability
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[5].minDrunkness
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[4].minDrunkness
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sailorsConfig.sailorEvents.Array.data[4].maxDrunkness
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 111844}
+  m_IsPrefabParent: 1

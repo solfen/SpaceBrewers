@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 59fc0827ab3bdac4f9da6dc109c19f54
+timeCreated: 1462365832
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Command_Elbow01
+    100004: Command_Elbow01_CTRL
+    100006: Command_Elbow01_GRP
+    100008: Command_Elbow02
+    100010: Command_Elbow02_CTRL
+    100012: Command_Elbow02_GRP
+    100014: Command_Finger01
+    100016: Command_Finger02
+    100018: Command_Mesh
+    100020: Command_Rig
+    100022: Command_Root
+    100024: Command_Root_CTRL
+    100026: Command_Shoulder01
+    100028: Command_Shoulder01_CTRL
+    100030: Command_Shoulder01_GRP
+    100032: Command_Shoulder02
+    100034: Command_Shoulder02_CTRL
+    100036: Command_Shoulder02_GRP
+    100038: Command_Skeleton
+    100040: Command_Wrist01
+    100042: Command_Wrist01_CTRL
+    100044: Command_Wrist01_GRP
+    100046: Command_Wrist02
+    100048: Command_Wrist02_CTRL
+    100050: Command_Wrist02_GRP
+    400000: //RootNode
+    400002: Command_Elbow01
+    400004: Command_Elbow01_CTRL
+    400006: Command_Elbow01_GRP
+    400008: Command_Elbow02
+    400010: Command_Elbow02_CTRL
+    400012: Command_Elbow02_GRP
+    400014: Command_Finger01
+    400016: Command_Finger02
+    400018: Command_Mesh
+    400020: Command_Rig
+    400022: Command_Root
+    400024: Command_Root_CTRL
+    400026: Command_Shoulder01
+    400028: Command_Shoulder01_CTRL
+    400030: Command_Shoulder01_GRP
+    400032: Command_Shoulder02
+    400034: Command_Shoulder02_CTRL
+    400036: Command_Shoulder02_GRP
+    400038: Command_Skeleton
+    400040: Command_Wrist01
+    400042: Command_Wrist01_CTRL
+    400044: Command_Wrist01_GRP
+    400046: Command_Wrist02
+    400048: Command_Wrist02_CTRL
+    400050: Command_Wrist02_GRP
+    4300000: Command_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Command_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Command_Mesh
+        weight: 1
+      - path: Command_Rig
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP/Command_Shoulder01_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP/Command_Shoulder01_CTRL/Command_Elbow01_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP/Command_Shoulder01_CTRL/Command_Elbow01_GRP/Command_Elbow01_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP/Command_Shoulder01_CTRL/Command_Elbow01_GRP/Command_Elbow01_CTRL/Command_Wrist01_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder01_GRP/Command_Shoulder01_CTRL/Command_Elbow01_GRP/Command_Elbow01_CTRL/Command_Wrist01_GRP/Command_Wrist01_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP/Command_Shoulder02_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP/Command_Shoulder02_CTRL/Command_Elbow02_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP/Command_Shoulder02_CTRL/Command_Elbow02_GRP/Command_Elbow02_CTRL
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP/Command_Shoulder02_CTRL/Command_Elbow02_GRP/Command_Elbow02_CTRL/Command_Wrist02_GRP
+        weight: 1
+      - path: Command_Rig/Command_Root_CTRL/Command_Shoulder02_GRP/Command_Shoulder02_CTRL/Command_Elbow02_GRP/Command_Elbow02_CTRL/Command_Wrist02_GRP/Command_Wrist02_CTRL
+        weight: 1
+      - path: Command_Skeleton
+        weight: 1
+      - path: Command_Skeleton/Command_Root
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder01
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder01/Command_Elbow01
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder01/Command_Elbow01/Command_Wrist01
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder01/Command_Elbow01/Command_Wrist01/Command_Finger01
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder02
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder02/Command_Elbow02
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder02/Command_Elbow02/Command_Wrist02
+        weight: 1
+      - path: Command_Skeleton/Command_Root/Command_Shoulder02/Command_Elbow02/Command_Wrist02/Command_Finger02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

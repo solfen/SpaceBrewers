@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wireframe
+  m_Shader: {fileID: 4800000, guid: 494704b3fd4865a469d80568df952af3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _GridTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 92d6743cfb8b42647ae6f1fb49da609a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: e9a9781cad112c75d0008dfa8d76c639, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_2179
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_8277
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 909d3a1def655c741b0dbb7b677eacd1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _FresnelExponent
+        second: 1.5
+      data:
+        first:
+          name: _Glow
+        second: 2
+      data:
+        first:
+          name: _Speed
+        second: .300000012
+      data:
+        first:
+          name: _Tiling
+        second: 4
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: .751724005, b: 1, a: 0}
+      data:
+        first:
+          name: _WireColor
+        second: {r: 0, g: .958620548, b: 1, a: 1}

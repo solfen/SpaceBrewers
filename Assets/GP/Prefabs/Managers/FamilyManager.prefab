@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454354}
+  - 114: {fileID: 11442760}
+  m_Layer: 0
+  m_Name: FamilyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11442760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5c29239ce14a84280d12bd02ecdc07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beerContestInterval: 30
+  playableFamilies:
+  - name: FAMILY_PLAY_1_NAME
+    history: FAMILY_PLAY_1_HISTORY
+    sigil: {fileID: 21300000, guid: a6e858eefb490d9418075c3b851b9f7e, type: 3}
+    reputationPercent: 20,30
+    sectorName: SECT_NAME_0
+    sectorWealth: 35,45
+    sectorHostility: 15,25
+    startMoney: 2200
+    startBeer: 1000
+    startMaxBeer: 1000
+    baseBrewery: {fileID: 163798, guid: d2f36bcb0f07dd443a8349317fbd000c, type: 2}
+    mercenariesDefenseSkill: 100
+    mercenariesNegociationSkill: 25
+    mercenariesSneakSkill: 10
+    isUnlocked: 1
+  - name: FAMILY_PLAY_2_NAME
+    history: FAMILY_PLAY_2_HISTORY
+    sigil: {fileID: 21300000, guid: 312d487f9e321cd47b8156745f39fe3c, type: 3}
+    reputationPercent: 10,20
+    sectorName: SECT_NAME_0
+    sectorWealth: 65,75
+    sectorHostility: 15,25
+    startMoney: 4300
+    startBeer: 600
+    startMaxBeer: 600
+    baseBrewery: {fileID: 146982, guid: d6943c0dee359c14fb8db6d9ac22d3e9, type: 2}
+    mercenariesDefenseSkill: 100
+    mercenariesNegociationSkill: 25
+    mercenariesSneakSkill: 10
+    isUnlocked: 1
+  - name: FAMILY_PLAY_3_NAME
+    history: FAMILY_PLAY_3_HISTORY
+    sigil: {fileID: 21300000, guid: 2507b4eaf4144c64b9cb6e42050e3dd3, type: 3}
+    reputationPercent: 70,80
+    sectorName: MainLand
+    sectorWealth: 35,45
+    sectorHostility: 35,45
+    startMoney: 1700
+    startBeer: 400
+    startMaxBeer: 3000
+    baseBrewery: {fileID: 163798, guid: d2f36bcb0f07dd443a8349317fbd000c, type: 2}
+    mercenariesDefenseSkill: 10
+    mercenariesNegociationSkill: 25
+    mercenariesSneakSkill: 10
+    isUnlocked: 1
+  familiesNames:
+  - FAMILY_ENEMY_1_NAME
+  - FAMILY_ENEMY_2_NAME
+  - FAMILY_ENEMY_3_NAME
+  - FAMILY_ENEMY_4_NAME
+  - FAMILY_ENEMY_5_NAME
+  - FAMILY_ENEMY_6_NAME
+  - FAMILY_ENEMY_7_NAME
+  - FAMILY_ENEMY_8_NAME
+  familiesSigils:
+  - {fileID: 21300000, guid: 32266048a41c9aa4692bbe0d77bb0dc1, type: 3}
+  - {fileID: 21300000, guid: e1925046ebb364942ba359ba8ef675bb, type: 3}
+  - {fileID: 21300000, guid: 8092608fcdeb97d4c92d840fd216d7a4, type: 3}
+  - {fileID: 21300000, guid: 2dad9aac59f0a1d449e55932e6f6468b, type: 3}
+  - {fileID: 21300000, guid: dcde52f6c0a24c6498e726507624124e, type: 3}
+  - {fileID: 21300000, guid: a1acd3e6bf527004f8053735e0fbcb73, type: 3}
+  - {fileID: 21300000, guid: ba51b66f87f51764595ec9ee6b9a9267, type: 3}
+  familiesAI:
+  - type: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - type: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - type: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - type: 3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.47899163
+        outSlope: 0.47899163
+        tangentMode: 10
+      - time: 0.9916667
+        value: 0.47500002
+        inSlope: 0.47899163
+        outSlope: 0.47899163
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  reputationOrderedFamilies: []
+  playerFamilyTemplate:
+    name: 
+    history: 
+    sigil: {fileID: 0}
+    reputationPercent: 
+    sectorName: 
+    sectorWealth: 
+    sectorHostility: 
+    startMoney: 
+    startBeer: 
+    startMaxBeer: 
+    baseBrewery: {fileID: 0}
+    mercenariesDefenseSkill: 
+    mercenariesNegociationSkill: 
+    mercenariesSneakSkill: 
+    isUnlocked: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 142664}
+  m_IsPrefabParent: 1

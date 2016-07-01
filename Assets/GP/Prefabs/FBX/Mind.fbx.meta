@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: d476ab947153a834aba1c995ebbce938
+timeCreated: 1461223887
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mind_Chest01
+    100004: Mind_Chest01_CTRL
+    100006: Mind_Chest01_GRP
+    100008: Mind_Clavicle01
+    100010: Mind_Elbow01
+    100012: Mind_Elbow01_CTRL
+    100014: Mind_Elbow01_GRP
+    100016: Mind_Elbow02
+    100018: Mind_Elbow02_CTRL
+    100020: Mind_Elbow02_GRP
+    100022: Mind_End01
+    100024: Mind_End02
+    100026: Mind_Finger01
+    100028: Mind_Finger01_CTRL
+    100030: Mind_Finger01_GRP
+    100032: Mind_Finger02
+    100034: Mind_Finger02_CTRL
+    100036: Mind_Finger02_GRP
+    100038: Mind_Mesh
+    100040: Mind_Phalanx01
+    100042: Mind_Phalanx01_CTRL
+    100044: Mind_Phalanx01_GRP
+    100046: Mind_Phalanx02
+    100048: Mind_Phalanx02_CTRL
+    100050: Mind_Phalanx02_GRP
+    100052: Mind_Rig
+    100054: Mind_Root
+    100056: Mind_Root_CTRL
+    100058: Mind_Shoulder01
+    100060: Mind_Shoulder01_CTRL
+    100062: Mind_Shoulder01_GRP
+    100064: Mind_Shoulder02
+    100066: Mind_Shoulder02_CTRL
+    100068: Mind_Shoulder02_GRP
+    100070: Mind_Skeleton
+    100072: Mind_Wrist01
+    100074: Mind_Wrist01_CTRL
+    100076: Mind_Wrist01_GRP
+    100078: Mind_Wrist02
+    100080: Mind_Wrist02_CTRL
+    100082: Mind_Wrist02_GRP
+    400000: //RootNode
+    400002: Mind_Chest01
+    400004: Mind_Chest01_CTRL
+    400006: Mind_Chest01_GRP
+    400008: Mind_Clavicle01
+    400010: Mind_Elbow01
+    400012: Mind_Elbow01_CTRL
+    400014: Mind_Elbow01_GRP
+    400016: Mind_Elbow02
+    400018: Mind_Elbow02_CTRL
+    400020: Mind_Elbow02_GRP
+    400022: Mind_End01
+    400024: Mind_End02
+    400026: Mind_Finger01
+    400028: Mind_Finger01_CTRL
+    400030: Mind_Finger01_GRP
+    400032: Mind_Finger02
+    400034: Mind_Finger02_CTRL
+    400036: Mind_Finger02_GRP
+    400038: Mind_Mesh
+    400040: Mind_Phalanx01
+    400042: Mind_Phalanx01_CTRL
+    400044: Mind_Phalanx01_GRP
+    400046: Mind_Phalanx02
+    400048: Mind_Phalanx02_CTRL
+    400050: Mind_Phalanx02_GRP
+    400052: Mind_Rig
+    400054: Mind_Root
+    400056: Mind_Root_CTRL
+    400058: Mind_Shoulder01
+    400060: Mind_Shoulder01_CTRL
+    400062: Mind_Shoulder01_GRP
+    400064: Mind_Shoulder02
+    400066: Mind_Shoulder02_CTRL
+    400068: Mind_Shoulder02_GRP
+    400070: Mind_Skeleton
+    400072: Mind_Wrist01
+    400074: Mind_Wrist01_CTRL
+    400076: Mind_Wrist01_GRP
+    400078: Mind_Wrist02
+    400080: Mind_Wrist02_CTRL
+    400082: Mind_Wrist02_GRP
+    2300000: //RootNode
+    2300002: Mind_Mesh
+    3300000: //RootNode
+    3300002: Mind_Mesh
+    4300000: Mind
+    4300002: Mind_Mesh
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: Mind_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 259
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mind_Mesh
+        weight: 1
+      - path: Mind_Rig
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP/Mind_Wrist01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP/Mind_Wrist01_CTRL/Mind_Phalanx01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP/Mind_Wrist01_CTRL/Mind_Phalanx01_GRP/Mind_Phalanx01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP/Mind_Wrist01_CTRL/Mind_Phalanx01_GRP/Mind_Phalanx01_CTRL/Mind_Finger01_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Chest01_GRP/Mind_Chest01_CTRL/Mind_Shoulder01_GRP/Mind_Shoulder01_CTRL/Mind_Elbow01_GRP/Mind_Elbow01_CTRL/Mind_Wrist01_GRP/Mind_Wrist01_CTRL/Mind_Phalanx01_GRP/Mind_Phalanx01_CTRL/Mind_Finger01_GRP/Mind_Finger01_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP/Mind_Wrist02_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP/Mind_Wrist02_CTRL/Mind_Phalanx02_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP/Mind_Wrist02_CTRL/Mind_Phalanx02_GRP/Mind_Phalanx02_CTRL
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP/Mind_Wrist02_CTRL/Mind_Phalanx02_GRP/Mind_Phalanx02_CTRL/Mind_Finger02_GRP
+        weight: 1
+      - path: Mind_Rig/Mind_Root_CTRL/Mind_Shoulder02_GRP/Mind_Shoulder02_CTRL/Mind_Elbow02_GRP/Mind_Elbow02_CTRL/Mind_Wrist02_GRP/Mind_Wrist02_CTRL/Mind_Phalanx02_GRP/Mind_Phalanx02_CTRL/Mind_Finger02_GRP/Mind_Finger02_CTRL
+        weight: 1
+      - path: Mind_Skeleton
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01/Mind_Elbow01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01/Mind_Elbow01/Mind_Wrist01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01/Mind_Elbow01/Mind_Wrist01/Mind_Phalanx01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01/Mind_Elbow01/Mind_Wrist01/Mind_Phalanx01/Mind_Finger01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Chest01/Mind_Clavicle01/Mind_Shoulder01/Mind_Elbow01/Mind_Wrist01/Mind_Phalanx01/Mind_Finger01/Mind_End01
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02/Mind_Elbow02
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02/Mind_Elbow02/Mind_Wrist02
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02/Mind_Elbow02/Mind_Wrist02/Mind_Phalanx02
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02/Mind_Elbow02/Mind_Wrist02/Mind_Phalanx02/Mind_Finger02
+        weight: 1
+      - path: Mind_Skeleton/Mind_Root/Mind_Shoulder02/Mind_Elbow02/Mind_Wrist02/Mind_Phalanx02/Mind_Finger02/Mind_End02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

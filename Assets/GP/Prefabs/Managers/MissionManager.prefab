@@ -1,0 +1,1118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &178556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454188}
+  - 114: {fileID: 11432952}
+  m_Layer: 0
+  m_Name: MissionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454188
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11432952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f8e0d10ad83eb418b484745726f0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sectorHostilityCoef: 1
+  sectorDistanceCoef: 1
+  sectorReputationCoef: 1
+  mercenaryDefenseCoef: 1
+  mercenaryNegociationCoef: 1
+  mercenarySneakCoef: 1
+  mindManipulationCoef: 1
+  missions:
+  - name: MIS_01_NAME
+    type: 0
+    icon: {fileID: 0}
+    successProbabilityFactor: 360
+    durationFactor: 12
+    beerCost: 400
+    moneyCost: 0
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: '>'
+      amount: 25
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 0
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: reputationPercent
+      sign: '>'
+      amount: 50
+    descriptions:
+    - text: MIS_01_DESCRIPTION_1
+    - text: MIS_01_DESCRIPTION_2
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: moneyPerBeer
+        sign: '>'
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 600,700
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 0.5
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 1
+    familyConsequencies:
+    - condition:
+        field: name
+        sign: '>'
+        amount: 0
+      consequency:
+        field: reputationModifications
+        sign: +
+        amount: 
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies:
+    - condition:
+        field: score
+        sign: '>'
+        amount: 0
+      nb: 0
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_02_NAME
+    type: 0
+    icon: {fileID: 0}
+    successProbabilityFactor: 320
+    durationFactor: 30
+    beerCost: 1000
+    moneyCost: 0
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: <
+      amount: 100
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 0
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: reputationPercent
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_02_DESCRIPTION_1
+    - text: MIS_02_DESCRIPTION_2
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: moneyPerBeer
+        sign: '>'
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 1750,2000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 2
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_05_NAME
+    type: 0
+    icon: {fileID: 0}
+    successProbabilityFactor: 240
+    durationFactor: 30
+    beerCost: 1000
+    moneyCost: 10
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: <
+      amount: 100
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions: []
+    descriptions:
+    - text: MIS_05_DESCRIPTION_1
+    - text: MIS_05_DESCRIPTION_2
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: moneyPerBeer
+        sign: '>'
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2750,3000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 5
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_03_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 780
+    durationFactor: 30
+    beerCost: 0
+    moneyCost: 1000
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: '>'
+      amount: 0
+    - field: maxEnergyNb
+      sign: <
+      amount: 0
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 0
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions: []
+    descriptions:
+    - text: MIS_03_DESCRIPTION_1
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: 150-200
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationPercent
+        sign: +
+        amount: 10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_04_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 480
+    durationFactor: 60
+    beerCost: 0
+    moneyCost: 2000
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: '>'
+      amount: 0
+    - field: maxEnergyNb
+      sign: <
+      amount: 0
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: reputationPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions: []
+    descriptions:
+    - text: MIS_04_DESCRIPTION_1
+    - text: MIS_04_DESCRIPTION_2
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: 150-200
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationPercent
+        sign: +
+        amount: 30
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_06_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 780
+    durationFactor: 30
+    beerCost: 0
+    moneyCost: 0
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: '>'
+      amount: 0
+    - field: maxEnergyNb
+      sign: <
+      amount: 0
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 0
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: reputationPercent
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_06_DESCRIPTION_1
+    - text: MIS_06_DESCRIPTION_2
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: 5
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_07_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 720
+    durationFactor: 30
+    beerCost: 0
+    moneyCost: 2000
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: beerNb
+      sign: '>'
+      amount: 0
+    - field: maxEnergyNb
+      sign: <
+      amount: 0
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 25
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions: []
+    descriptions:
+    - text: MIS_07_DESCRIPTION_1
+    - text: MIS_07_DESCRIPTION_2
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: 150-200
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: 25
+    hasSectorFailureConsequencies: 1
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: -25
+    hasFamilyConsequencies: 1
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationModifications
+        sign: +
+        amount: 25
+    hasFamilyFailureConsequencies: 1
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationModifications
+        sign: +
+        amount: 5
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_08_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 1080
+    durationFactor: 30
+    beerCost: 1000
+    moneyCost: 1000
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: reputation
+      sign: '>'
+      amount: 20
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: reputationPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions: []
+    descriptions:
+    - text: MIS_08_DESCRIPTION_1
+    - text: MIS_08_DESCRIPTION_2
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: beerNb
+        sign: +
+        amount: 150-200
+    hasSectorConsequencies: 0
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies: []
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 1
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      nb: 1
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_09_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 480
+    durationFactor: 20
+    beerCost: 2500
+    moneyCost: 0
+    hasRessourcesSpawnCondition: 1
+    ressourcesSpawnConditions:
+    - field: reputation
+      sign: '>'
+      amount: 50
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: distance
+      sign: '>'
+      amount: 10
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_09_DESCRIPTION_1
+    - text: MIS_09_DESCRIPTION_2
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: score
+        sign: +
+        amount: 1000
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: 10
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 1000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: -10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_10_NAME
+    type: 0
+    icon: {fileID: 0}
+    successProbabilityFactor: 280
+    durationFactor: 40
+    beerCost: 4000
+    moneyCost: 0
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 50
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: wealthPercent
+      sign: '>'
+      amount: 50
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_10_DESCRIPTION_1
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 6750,7950
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_11_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 960
+    durationFactor: 30
+    beerCost: 0
+    moneyCost: 500
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 50
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: wealthPercent
+      sign: '>'
+      amount: 40
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_11_DESCRIPTION_1
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: 10
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationPercent
+        sign: +
+        amount: 10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_12_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 1080
+    durationFactor: 15
+    beerCost: 0
+    moneyCost: 1000
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: nbOfComandPostConstructed
+      sign: '>'
+      amount: 50
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: wealthPercent
+      sign: '>'
+      amount: 40
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_12_DESCRIPTION_1
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: reputation
+        sign: +
+        amount: 10
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: -10
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_13_NAME
+    type: 2
+    icon: {fileID: 0}
+    successProbabilityFactor: 300
+    durationFactor: 40
+    beerCost: 0
+    moneyCost: 1000
+    hasRessourcesSpawnCondition: 1
+    ressourcesSpawnConditions:
+    - field: nbOfMindManipulatorConstructed
+      sign: '>'
+      amount: 0
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: wealthPercent
+      sign: '>'
+      amount: 40
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_13_DESCRIPTION_1
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 50
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_14_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 960
+    durationFactor: 30
+    beerCost: 0
+    moneyCost: 1000
+    hasRessourcesSpawnCondition: 1
+    ressourcesSpawnConditions:
+    - field: nbOfMindManipulatorConstructed
+      sign: '>'
+      amount: 0
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_14_DESCRIPTION_1
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: wealthPercent
+        sign: +
+        amount: 50
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_15_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 840
+    durationFactor: 15
+    beerCost: 0
+    moneyCost: 1500
+    hasRessourcesSpawnCondition: 0
+    ressourcesSpawnConditions:
+    - field: nbOfMindManipulatorConstructed
+      sign: '>'
+      amount: 0
+    hasSectorSpawnCondtions: 1
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_15_DESCRIPTION_1
+    hasRessourcesReward: 0
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 2000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: -20
+    hasSectorFailureConsequencies: 0
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies: []
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  - name: MIS_16_NAME
+    type: 1
+    icon: {fileID: 0}
+    successProbabilityFactor: 300
+    durationFactor: 60
+    beerCost: 0
+    moneyCost: 2000
+    hasRessourcesSpawnCondition: 1
+    ressourcesSpawnConditions:
+    - field: nbOfMindManipulatorConstructed
+      sign: '>'
+      amount: 0
+    hasSectorSpawnCondtions: 0
+    sectorSpawnCondtions:
+    - field: hostilityPercent
+      sign: '>'
+      amount: 20
+    hasFamilySpawnCondtions: 0
+    familySpawnConditions:
+    - field: sigil
+      sign: '>'
+      amount: 0
+    descriptions:
+    - text: MIS_16_DESCRIPTION_1
+    hasRessourcesReward: 1
+    isRessourcesRewardConditional: 0
+    ressourceRewards:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      reward:
+        field: moneyNb
+        sign: +
+        amount: 5000
+    hasSectorConsequencies: 1
+    isSectorConsequenciesConditional: 0
+    sectorConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationPercent
+        sign: +
+        amount: 50
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: hostilityPercent
+        sign: +
+        amount: 20
+    hasSectorFailureConsequencies: 1
+    isSectorFailureConsequenciesConditional: 0
+    sectorFailureConsequencies:
+    - condition:
+        field: 
+        sign: 
+        amount: 0
+      consequency:
+        field: reputationPercent
+        sign: +
+        amount: -50
+    hasFamilyConsequencies: 0
+    isFamilyConsequenciesConditional: 0
+    familyConsequencies: []
+    hasFamilyFailureConsequencies: 0
+    isFamilyFailureConsequenciesConditional: 0
+    familyFailureConsequencies: []
+    hasSailorsConsequencies: 0
+    isSailorsConsequenciesConditional: 0
+    sailorConsequencies: []
+    hasSailorsFailureConsequencies: 0
+    isSailorsFailureConsequenciesConditional: 0
+    sailorsFailureConsequencies: []
+  isDoingMission: 0
+  timeMissionStarted: 0
+  missionDuration: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 178556}
+  m_IsPrefabParent: 1
